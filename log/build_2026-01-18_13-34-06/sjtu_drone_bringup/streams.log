@@ -1,0 +1,44 @@
+[0.630s] Invoking command in '/home/basestation/ros2_ws/build/sjtu_drone_bringup': PYTHONPATH=/home/basestation/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/basestation/ros2_ws/build/sjtu_drone_bringup/build --no-deps symlink_data
+[0.782s] /home/basestation/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: 
+[0.783s] ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x
+[0.783s] 
+[0.783s] Your build configuration is incomplete and previously worked by accident!
+[0.783s] setuptools_scm requires setuptools>=61
+[0.783s] 
+[0.783s] Suggested workaround if applicable:
+[0.783s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[0.783s]    and using a pyproject.toml to declare build dependencies
+[0.783s]    which are reliably pre-installed before running the build tools
+[0.783s] 
+[0.783s]   warnings.warn(
+[0.803s] running develop
+[0.929s] running egg_info
+[0.929s] creating sjtu_drone_bringup.egg-info
+[0.929s] writing sjtu_drone_bringup.egg-info/PKG-INFO
+[0.930s] writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt
+[0.930s] writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt
+[0.930s] writing requirements to sjtu_drone_bringup.egg-info/requires.txt
+[0.930s] writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt
+[0.930s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[0.957s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[0.958s] reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[0.958s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[0.981s] running build_ext
+[0.981s] Creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)
+[0.981s] Installing spawn_drone script to /home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[0.981s] 
+[0.981s] Installed /home/basestation/ros2_ws/build/sjtu_drone_bringup
+[0.981s] running symlink_data
+[0.981s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index
+[0.982s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index
+[0.982s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/resource/sjtu_drone_bringup -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/package.xml -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup
+[0.982s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_bringup.launch.py -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[0.982s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/rviz/rviz.rviz -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[0.982s] creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config
+[0.982s] symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/config/drone.yaml -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config
+[1.009s] Invoked command in '/home/basestation/ros2_ws/build/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/basestation/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/basestation/ros2_ws/build/sjtu_drone_bringup/build --no-deps symlink_data

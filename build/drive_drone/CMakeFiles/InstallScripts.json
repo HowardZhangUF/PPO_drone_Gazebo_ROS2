@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/basestation/ros2_ws/build/drive_drone/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

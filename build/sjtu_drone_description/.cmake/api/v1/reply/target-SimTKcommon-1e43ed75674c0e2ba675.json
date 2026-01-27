@@ -1,0 +1,153 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6"
+		}
+	],
+	"backtrace" : 15,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/usr/lib/x86_64-linux-gnu/cmake/simbody/SimbodyTargets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/simbody/SimbodyConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake",
+			"/opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake",
+			"/opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake",
+			"/opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 10
+			},
+			{
+				"file" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 12
+			},
+			{
+				"file" : 0,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 14
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "SimTKcommon::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"fragment" : "/usr/lib/x86_64-linux-gnu/libblas.so"
+		},
+		{
+			"fragment" : "/usr/lib/x86_64-linux-gnu/liblapack.so"
+		},
+		{
+			"fragment" : "/usr/lib/x86_64-linux-gnu/libblas.so"
+		},
+		{
+			"fragment" : "pthread"
+		},
+		{
+			"fragment" : "rt"
+		},
+		{
+			"fragment" : "dl"
+		},
+		{
+			"fragment" : "m"
+		}
+	],
+	"local" : true,
+	"name" : "SimTKcommon",
+	"nameOnDisk" : "libSimTKcommon.so.3.6",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

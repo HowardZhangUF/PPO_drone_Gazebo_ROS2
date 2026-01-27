@@ -1,0 +1,510 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (sjtu_drone_bringup) JobQueued: {'identifier': 'sjtu_drone_bringup', 'dependencies': OrderedDict()}
+[0.000534] (sjtu_drone_control) JobQueued: {'identifier': 'sjtu_drone_control', 'dependencies': OrderedDict()}
+[0.000552] (sjtu_drone_description) JobQueued: {'identifier': 'sjtu_drone_description', 'dependencies': OrderedDict()}
+[0.000569] (sjtu_drone_bringup) JobStarted: {'identifier': 'sjtu_drone_bringup'}
+[0.004678] (sjtu_drone_control) JobStarted: {'identifier': 'sjtu_drone_control'}
+[0.007510] (sjtu_drone_description) JobStarted: {'identifier': 'sjtu_drone_description'}
+[0.099925] (-) TimerEvent: {}
+[0.200160] (-) TimerEvent: {}
+[0.300429] (-) TimerEvent: {}
+[0.368937] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'cmake'}
+[0.369073] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '/home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/basestation/ros2_ws/install/sjtu_drone_description'], 'cwd': '/home/basestation/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('USER', 'basestation'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/basestation/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basestation/base_ws/install/opencv_cam/lib:/home/basestation/base_ws/install/mml_guidance_msgs/lib:/home/basestation/base_ws/install/crazyflie_interfaces/lib:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/basestation/isaacsim/exts/omni.isaac.ros2_bridge/humble/lib'), ('HOME', '/home/basestation'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_pc.xml'), ('OLDPWD', '/home/basestation/.local/lib/python3.10/site-packages'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/basestation/base_ws/install:/home/basestation/workspaces/dp_solver_ws/install:/home/basestation/magnav_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basestation'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'basestation'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basestation/miniconda3/condabin:/home/basestation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/MAE-JS-GCLK2Z3:@/tmp/.ICE-unix/3037,unix/MAE-JS-GCLK2Z3:/tmp/.ICE-unix/3037'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d58c532_cdea_41f2_ba11_53a46dbb0532'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('MAMBA_ROOT_PREFIX', '/home/basestation/micromamba'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/basestation/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.168.0.107:11811;192.168.0.101:11811;192.168.0.104:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ISAACSIM_PYTHON', '/home/basestation/isaacsim/python.sh'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('MAMBA_EXE', '/home/basestation/.local/bin/micromamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basestation/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/basestation/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basestation/base_ws/install/robot_pid/lib/python3.10/site-packages:/home/basestation/base_ws/install/mocap_fake_radar/lib/python3.10/site-packages:/home/basestation/base_ws/install/mml_guidance_msgs/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/magnav_viz/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_pf/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_entmap/lib/python3.10/site-packages:/home/basestation/base_ws/install/mag_mapping/lib/python3.10/site-packages:/home/basestation/base_ws/install/info_magnav/lib/python3.10/site-packages:/home/basestation/base_ws/install/homography_node/lib/python3.10/site-packages:/home/basestation/base_ws/install/drone_launch/lib/python3.10/site-packages:/home/basestation/base_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/camera_detector/lib/python3.10/site-packages:/home/basestation/base_ws/install/base_launch/lib/python3.10/site-packages:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/local/lib/python3.10/dist-packages:/home/basestation/magnav_sim_ws/build/nn_data_collector:/home/basestation/magnav_sim_ws/install/nn_data_collector/lib/python3.10/site-packages:/home/basestation/magnav_sim_ws/build/magnav_nn_sim:/home/basestation/magnav_sim_ws/install/magnav_nn_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('ISAACSIM', '/home/basestation/isaacsim/isaac-sim.sh')]), 'shell': False}
+[0.376048] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.376139] (sjtu_drone_description) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.376169] (sjtu_drone_description) StderrLine: {'line': b'  CMake.\n'}
+[0.376192] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[0.376214] (sjtu_drone_description) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.376235] (sjtu_drone_description) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.376256] (sjtu_drone_description) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.376276] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[0.376296] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400532] (-) TimerEvent: {}
+[0.407187] (sjtu_drone_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.446994] (sjtu_drone_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.451330] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.486442] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.496283] (sjtu_drone_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.496504] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.496828] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500627] (-) TimerEvent: {}
+[0.504189] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.547017] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.557438] (sjtu_drone_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.557772] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.558333] (sjtu_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565847] (sjtu_drone_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")\n'}
+[0.566008] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.574129] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.591996] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain'\n"}
+[0.599001] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE-Terrain, version 1.9.0\n'}
+[0.600673] (-) TimerEvent: {}
+[0.620123] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.628849] (sjtu_drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/basestation/ros2_ws/build/sjtu_drone_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/basestation/ros2_ws/build/sjtu_drone_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:setup.py install is deprecated::setuptools.command.install', 'USER': 'basestation', 'XDG_SESSION_TYPE': 'x11', 'ISAACSIM_PATH': '/home/basestation/isaacsim', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/basestation/base_ws/install/opencv_cam/lib:/home/basestation/base_ws/install/mml_guidance_msgs/lib:/home/basestation/base_ws/install/crazyflie_interfaces/lib:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/basestation/isaacsim/exts/omni.isaac.ros2_bridge/humble/lib', 'HOME': '/home/basestation', 'CONDA_SHLVL': '0', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_pc.xml', 'OLDPWD': '/home/basestation/.local/lib/python3.10/site-packages', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3071', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/basestation/base_ws/install:/home/basestation/workspaces/dp_solver_ws/install:/home/basestation/magnav_sim_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'basestation', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_SUPER_CLIENT': 'True', 'USERNAME': 'basestation', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/basestation/miniconda3/condabin:/home/basestation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/MAE-JS-GCLK2Z3:@/tmp/.ICE-unix/3037,unix/MAE-JS-GCLK2Z3:/tmp/.ICE-unix/3037', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d58c532_cdea_41f2_ba11_53a46dbb0532', 'XDG_RUNTIME_DIR': '/run/user/1001', 'MAMBA_ROOT_PREFIX': '/home/basestation/micromamba', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/basestation/miniconda3/bin/python', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '192.168.0.107:11811;192.168.0.101:11811;192.168.0.104:11811;', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ISAACSIM_PYTHON': '/home/basestation/isaacsim/python.sh', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'MAMBA_EXE': '/home/basestation/.local/bin/micromamba', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/basestation/ros2_ws/build/sjtu_drone_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/basestation/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/basestation/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basestation/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/home/basestation/base_ws/install/robot_pid/lib/python3.10/site-packages:/home/basestation/base_ws/install/mocap_fake_radar/lib/python3.10/site-packages:/home/basestation/base_ws/install/mml_guidance_msgs/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/magnav_viz/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_pf/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_entmap/lib/python3.10/site-packages:/home/basestation/base_ws/install/mag_mapping/lib/python3.10/site-packages:/home/basestation/base_ws/install/info_magnav/lib/python3.10/site-packages:/home/basestation/base_ws/install/homography_node/lib/python3.10/site-packages:/home/basestation/base_ws/install/drone_launch/lib/python3.10/site-packages:/home/basestation/base_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/camera_detector/lib/python3.10/site-packages:/home/basestation/base_ws/install/base_launch/lib/python3.10/site-packages:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/local/lib/python3.10/dist-packages:/home/basestation/magnav_sim_ws/build/nn_data_collector:/home/basestation/magnav_sim_ws/install/nn_data_collector/lib/python3.10/site-packages:/home/basestation/magnav_sim_ws/build/magnav_nn_sim:/home/basestation/magnav_sim_ws/install/magnav_nn_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver', 'ISAACSIM': '/home/basestation/isaacsim/isaac-sim.sh'}, 'shell': False}
+[0.630356] (sjtu_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/basestation/ros2_ws/build/sjtu_drone_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/basestation/ros2_ws/build/sjtu_drone_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:setup.py install is deprecated::setuptools.command.install', 'USER': 'basestation', 'XDG_SESSION_TYPE': 'x11', 'ISAACSIM_PATH': '/home/basestation/isaacsim', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/basestation/base_ws/install/opencv_cam/lib:/home/basestation/base_ws/install/mml_guidance_msgs/lib:/home/basestation/base_ws/install/crazyflie_interfaces/lib:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/basestation/isaacsim/exts/omni.isaac.ros2_bridge/humble/lib', 'HOME': '/home/basestation', 'CONDA_SHLVL': '0', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_pc.xml', 'OLDPWD': '/home/basestation/.local/lib/python3.10/site-packages', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3071', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/basestation/base_ws/install:/home/basestation/workspaces/dp_solver_ws/install:/home/basestation/magnav_sim_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'basestation', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_SUPER_CLIENT': 'True', 'USERNAME': 'basestation', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/basestation/miniconda3/condabin:/home/basestation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/MAE-JS-GCLK2Z3:@/tmp/.ICE-unix/3037,unix/MAE-JS-GCLK2Z3:/tmp/.ICE-unix/3037', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d58c532_cdea_41f2_ba11_53a46dbb0532', 'XDG_RUNTIME_DIR': '/run/user/1001', 'MAMBA_ROOT_PREFIX': '/home/basestation/micromamba', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/basestation/miniconda3/bin/python', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '192.168.0.107:11811;192.168.0.101:11811;192.168.0.104:11811;', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ISAACSIM_PYTHON': '/home/basestation/isaacsim/python.sh', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'MAMBA_EXE': '/home/basestation/.local/bin/micromamba', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/basestation/ros2_ws/build/sjtu_drone_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/basestation/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/basestation/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/basestation/base_ws/install/robot_pid/lib/python3.10/site-packages:/home/basestation/base_ws/install/mocap_fake_radar/lib/python3.10/site-packages:/home/basestation/base_ws/install/mml_guidance_msgs/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/magnav_viz/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_pf/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_entmap/lib/python3.10/site-packages:/home/basestation/base_ws/install/mag_mapping/lib/python3.10/site-packages:/home/basestation/base_ws/install/info_magnav/lib/python3.10/site-packages:/home/basestation/base_ws/install/homography_node/lib/python3.10/site-packages:/home/basestation/base_ws/install/drone_launch/lib/python3.10/site-packages:/home/basestation/base_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/camera_detector/lib/python3.10/site-packages:/home/basestation/base_ws/install/base_launch/lib/python3.10/site-packages:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/local/lib/python3.10/dist-packages:/home/basestation/magnav_sim_ws/build/nn_data_collector:/home/basestation/magnav_sim_ws/install/nn_data_collector/lib/python3.10/site-packages:/home/basestation/magnav_sim_ws/build/magnav_nn_sim:/home/basestation/magnav_sim_ws/install/magnav_nn_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver', 'ISAACSIM': '/home/basestation/isaacsim/isaac-sim.sh'}, 'shell': False}
+[0.700731] (-) TimerEvent: {}
+[0.724415] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.763712] (sjtu_drone_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.782302] (sjtu_drone_control) StderrLine: {'line': b'/home/basestation/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: \n'}
+[0.782466] (sjtu_drone_control) StderrLine: {'line': b'ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x\n'}
+[0.782523] (sjtu_drone_control) StderrLine: {'line': b'\n'}
+[0.782573] (sjtu_drone_control) StderrLine: {'line': b'Your build configuration is incomplete and previously worked by accident!\n'}
+[0.782621] (sjtu_drone_control) StderrLine: {'line': b'setuptools_scm requires setuptools>=61\n'}
+[0.782667] (sjtu_drone_control) StderrLine: {'line': b'\n'}
+[0.782719] (sjtu_drone_control) StderrLine: {'line': b'Suggested workaround if applicable:\n'}
+[0.782767] (sjtu_drone_control) StderrLine: {'line': b' - migrating from the deprecated setup_requires mechanism to pep517/518\n'}
+[0.782812] (sjtu_drone_control) StderrLine: {'line': b'   and using a pyproject.toml to declare build dependencies\n'}
+[0.782857] (sjtu_drone_control) StderrLine: {'line': b'   which are reliably pre-installed before running the build tools\n'}
+[0.782901] (sjtu_drone_control) StderrLine: {'line': b'\n'}
+[0.782944] (sjtu_drone_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.782988] (sjtu_drone_bringup) StderrLine: {'line': b'/home/basestation/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: \n'}
+[0.783052] (sjtu_drone_bringup) StderrLine: {'line': b'ERROR: setuptools==59.6.0 is used in combination with setuptools_scm>=8.x\n'}
+[0.783097] (sjtu_drone_bringup) StderrLine: {'line': b'\n'}
+[0.783140] (sjtu_drone_bringup) StderrLine: {'line': b'Your build configuration is incomplete and previously worked by accident!\n'}
+[0.783183] (sjtu_drone_bringup) StderrLine: {'line': b'setuptools_scm requires setuptools>=61\n'}
+[0.783226] (sjtu_drone_bringup) StderrLine: {'line': b'\n'}
+[0.783269] (sjtu_drone_bringup) StderrLine: {'line': b'Suggested workaround if applicable:\n'}
+[0.783312] (sjtu_drone_bringup) StderrLine: {'line': b' - migrating from the deprecated setup_requires mechanism to pep517/518\n'}
+[0.783355] (sjtu_drone_bringup) StderrLine: {'line': b'   and using a pyproject.toml to declare build dependencies\n'}
+[0.783400] (sjtu_drone_bringup) StderrLine: {'line': b'   which are reliably pre-installed before running the build tools\n'}
+[0.783444] (sjtu_drone_bringup) StderrLine: {'line': b'\n'}
+[0.783487] (sjtu_drone_bringup) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.792466] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800532] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800787] (-) TimerEvent: {}
+[0.803842] (sjtu_drone_control) StdoutLine: {'line': b'running develop\n'}
+[0.803925] (sjtu_drone_bringup) StdoutLine: {'line': b'running develop\n'}
+[0.834510] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.839087] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.846107] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.856511] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.873059] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900873] (-) TimerEvent: {}
+[0.909315] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.912031] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.929135] (sjtu_drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.929261] (sjtu_drone_control) StdoutLine: {'line': b'creating sjtu_drone_control.egg-info\n'}
+[0.929328] (sjtu_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[0.929388] (sjtu_drone_bringup) StdoutLine: {'line': b'creating sjtu_drone_bringup.egg-info\n'}
+[0.929452] (sjtu_drone_control) StdoutLine: {'line': b'writing sjtu_drone_control.egg-info/PKG-INFO\n'}
+[0.929607] (sjtu_drone_bringup) StdoutLine: {'line': b'writing sjtu_drone_bringup.egg-info/PKG-INFO\n'}
+[0.929820] (sjtu_drone_control) StdoutLine: {'line': b'writing dependency_links to sjtu_drone_control.egg-info/dependency_links.txt\n'}
+[0.929888] (sjtu_drone_control) StdoutLine: {'line': b'writing entry points to sjtu_drone_control.egg-info/entry_points.txt\n'}
+[0.929941] (sjtu_drone_control) StdoutLine: {'line': b'writing requirements to sjtu_drone_control.egg-info/requires.txt\n'}
+[0.929991] (sjtu_drone_control) StdoutLine: {'line': b'writing top-level names to sjtu_drone_control.egg-info/top_level.txt\n'}
+[0.930042] (sjtu_drone_bringup) StdoutLine: {'line': b'writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt\n'}
+[0.930186] (sjtu_drone_bringup) StdoutLine: {'line': b'writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt\n'}
+[0.930248] (sjtu_drone_bringup) StdoutLine: {'line': b'writing requirements to sjtu_drone_bringup.egg-info/requires.txt\n'}
+[0.930299] (sjtu_drone_bringup) StdoutLine: {'line': b'writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt\n'}
+[0.930347] (sjtu_drone_control) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.930395] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.956574] (sjtu_drone_control) StderrLine: {'line': b"ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any\n"}
+[0.957090] (sjtu_drone_bringup) StderrLine: {'line': b"ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any\n"}
+[0.957199] (sjtu_drone_control) StdoutLine: {'line': b"reading manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.957500] (sjtu_drone_control) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[0.958175] (sjtu_drone_bringup) StdoutLine: {'line': b"reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.958743] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.976715] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.979806] (sjtu_drone_control) StdoutLine: {'line': b'running build_ext\n'}
+[0.979940] (sjtu_drone_control) StdoutLine: {'line': b'Creating /home/basestation/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)\n'}
+[0.980310] (sjtu_drone_control) StdoutLine: {'line': b'Installing drone_position_control script to /home/basestation/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.980388] (sjtu_drone_control) StdoutLine: {'line': b'Installing open_loop_control script to /home/basestation/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.980421] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop script to /home/basestation/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.980454] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop_joystick script to /home/basestation/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[0.980515] (sjtu_drone_control) StdoutLine: {'line': b'\n'}
+[0.980540] (sjtu_drone_control) StdoutLine: {'line': b'Installed /home/basestation/ros2_ws/build/sjtu_drone_control\n'}
+[0.980571] (sjtu_drone_control) StdoutLine: {'line': b'running symlink_data\n'}
+[0.980604] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_control/share/ament_index\n'}
+[0.980639] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_control/share/ament_index/resource_index\n'}
+[0.980663] (sjtu_drone_control) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages\n'}
+[0.980701] (sjtu_drone_control) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_control/resource/sjtu_drone_control -> /home/basestation/ros2_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages\n'}
+[0.980833] (sjtu_drone_control) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_control/package.xml -> /home/basestation/ros2_ws/install/sjtu_drone_control/share/sjtu_drone_control\n'}
+[0.981211] (sjtu_drone_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[0.981385] (sjtu_drone_bringup) StdoutLine: {'line': b'Creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)\n'}
+[0.981799] (sjtu_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /home/basestation/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup\n'}
+[0.981924] (sjtu_drone_bringup) StdoutLine: {'line': b'\n'}
+[0.981959] (sjtu_drone_bringup) StdoutLine: {'line': b'Installed /home/basestation/ros2_ws/build/sjtu_drone_bringup\n'}
+[0.981986] (sjtu_drone_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[0.982010] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index\n'}
+[0.982070] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index\n'}
+[0.982111] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.982135] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/resource/sjtu_drone_bringup -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.982159] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/package.xml -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup\n'}
+[0.982182] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.982217] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_bringup.launch.py -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.982240] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[0.982261] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz\n'}
+[0.982283] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/rviz/rviz.rviz -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz\n'}
+[0.982324] (sjtu_drone_bringup) StdoutLine: {'line': b'creating /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config\n'}
+[0.982347] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /home/basestation/ros2_ws/build/sjtu_drone_bringup/config/drone.yaml -> /home/basestation/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config\n'}
+[1.000957] (-) TimerEvent: {}
+[1.002289] (sjtu_drone_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.003064] (sjtu_drone_control) CommandEnded: {'returncode': 0}
+[1.009006] (sjtu_drone_control) JobEnded: {'identifier': 'sjtu_drone_control', 'rc': 0}
+[1.009524] (sjtu_drone_bringup) CommandEnded: {'returncode': 0}
+[1.012676] (sjtu_drone_bringup) JobEnded: {'identifier': 'sjtu_drone_bringup', 'rc': 0}
+[1.033587] (sjtu_drone_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.041056] (sjtu_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.080732] (sjtu_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.081644] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.101023] (-) TimerEvent: {}
+[1.122416] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.131030] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.139735] (sjtu_drone_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.201113] (-) TimerEvent: {}
+[1.210342] (sjtu_drone_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0")\n'}
+[1.240739] (sjtu_drone_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0")\n'}
+[1.240965] (sjtu_drone_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:20 (find_package):\n'}
+[1.240999] (sjtu_drone_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.241023] (sjtu_drone_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.241046] (sjtu_drone_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.241068] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[1.241089] (sjtu_drone_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.241110] (sjtu_drone_description) StderrLine: {'line': b'  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)\n'}
+[1.241131] (sjtu_drone_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:73 (include)\n'}
+[1.241151] (sjtu_drone_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:133 (dart_traverse_components)\n'}
+[1.241172] (sjtu_drone_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:181 (dart_package_init)\n'}
+[1.241196] (sjtu_drone_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)\n'}
+[1.241217] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.241236] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.241255] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.241274] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[1.241293] (sjtu_drone_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.241312] (sjtu_drone_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.241331] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.259488] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart\n'}
+[1.265841] (sjtu_drone_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):\n'}
+[1.265887] (sjtu_drone_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.265949] (sjtu_drone_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.265974] (sjtu_drone_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.265996] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[1.266017] (sjtu_drone_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.266037] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.266058] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.266077] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.266097] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[1.266117] (sjtu_drone_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.266136] (sjtu_drone_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.266156] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.285160] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time\n'}
+[1.298802] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[1.301162] (-) TimerEvent: {}
+[1.303064] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.307548] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.308687] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.308916] (sjtu_drone_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.312707] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.320887] (sjtu_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.341739] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.353041] (sjtu_drone_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):\n'}
+[1.353116] (sjtu_drone_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.353140] (sjtu_drone_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.353164] (sjtu_drone_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.353186] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[1.353208] (sjtu_drone_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.353231] (sjtu_drone_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[1.353252] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.353273] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.353293] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.353315] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[1.353338] (sjtu_drone_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.353359] (sjtu_drone_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.353382] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.356199] (sjtu_drone_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):\n'}
+[1.356270] (sjtu_drone_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.356298] (sjtu_drone_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.356319] (sjtu_drone_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.356341] (sjtu_drone_description) StderrLine: {'line': b'\n'}
+[1.356362] (sjtu_drone_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.356383] (sjtu_drone_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[1.356404] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.356424] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.356443] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.356463] (sjtu_drone_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[1.356482] (sjtu_drone_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.356502] (sjtu_drone_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.356522] (sjtu_drone_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.358925] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.369957] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.370014] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.380195] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.380242] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.390107] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.390179] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.400069] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.400115] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.401220] (-) TimerEvent: {}
+[1.410074] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.410109] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.420225] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.501314] (-) TimerEvent: {}
+[1.595086] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.597100] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.597422] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.601363] (-) TimerEvent: {}
+[1.609945] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")\n'}
+[1.617617] (sjtu_drone_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.621013] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.629983] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[1.652919] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4")\n'}
+[1.657464] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.665506] (sjtu_drone_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.684630] (sjtu_drone_description) StdoutLine: {'line': b'-- Found UUID: TRUE\n'}
+[1.686797] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.686916] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.699909] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.701422] (-) TimerEvent: {}
+[1.702917] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.710443] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.731838] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.733967] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.734052] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.734408] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.735598] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.736378] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DL: TRUE\n'}
+[1.746223] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0")\n'}
+[1.746666] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.748879] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.748998] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.749214] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.752021] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.752126] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.801510] (-) TimerEvent: {}
+[1.803712] (sjtu_drone_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")\n'}
+[1.809240] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.817150] (sjtu_drone_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.836980] (sjtu_drone_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE\n'}
+[1.840771] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.849033] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.868977] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ZIP: TRUE\n'}
+[1.869266] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.869505] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.869746] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.872997] (sjtu_drone_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.873186] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.881447] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.901616] (-) TimerEvent: {}
+[1.903209] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)\n'}
+[1.951532] (sjtu_drone_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.965675] (sjtu_drone_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.979303] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.987992] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.001688] (-) TimerEvent: {}
+[2.059619] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.067899] (sjtu_drone_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.068901] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0")\n'}
+[2.068954] (sjtu_drone_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.082792] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.101733] (-) TimerEvent: {}
+[2.147039] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.147606] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/include;$<BUILD_INTERFACE:/home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/include>\n'}
+[2.147637] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.148323] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.149245] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.149278] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.149758] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.151557] (sjtu_drone_description) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[2.172496] (sjtu_drone_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.195284] (sjtu_drone_description) StdoutLine: {'line': b'-- Build files have been written to: /home/basestation/ros2_ws/build/sjtu_drone_description\n'}
+[2.201794] (-) TimerEvent: {}
+[2.203825] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[2.204217] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'build'}
+[2.204700] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basestation/ros2_ws/build/sjtu_drone_description', '--', '-j24', '-l24'], 'cwd': '/home/basestation/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('USER', 'basestation'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/basestation/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basestation/base_ws/install/opencv_cam/lib:/home/basestation/base_ws/install/mml_guidance_msgs/lib:/home/basestation/base_ws/install/crazyflie_interfaces/lib:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/basestation/isaacsim/exts/omni.isaac.ros2_bridge/humble/lib'), ('HOME', '/home/basestation'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_pc.xml'), ('OLDPWD', '/home/basestation/.local/lib/python3.10/site-packages'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/basestation/base_ws/install:/home/basestation/workspaces/dp_solver_ws/install:/home/basestation/magnav_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basestation'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'basestation'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basestation/miniconda3/condabin:/home/basestation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/MAE-JS-GCLK2Z3:@/tmp/.ICE-unix/3037,unix/MAE-JS-GCLK2Z3:/tmp/.ICE-unix/3037'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d58c532_cdea_41f2_ba11_53a46dbb0532'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('MAMBA_ROOT_PREFIX', '/home/basestation/micromamba'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/basestation/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.168.0.107:11811;192.168.0.101:11811;192.168.0.104:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ISAACSIM_PYTHON', '/home/basestation/isaacsim/python.sh'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('MAMBA_EXE', '/home/basestation/.local/bin/micromamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basestation/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/basestation/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basestation/base_ws/install/robot_pid/lib/python3.10/site-packages:/home/basestation/base_ws/install/mocap_fake_radar/lib/python3.10/site-packages:/home/basestation/base_ws/install/mml_guidance_msgs/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/magnav_viz/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_pf/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_entmap/lib/python3.10/site-packages:/home/basestation/base_ws/install/mag_mapping/lib/python3.10/site-packages:/home/basestation/base_ws/install/info_magnav/lib/python3.10/site-packages:/home/basestation/base_ws/install/homography_node/lib/python3.10/site-packages:/home/basestation/base_ws/install/drone_launch/lib/python3.10/site-packages:/home/basestation/base_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/camera_detector/lib/python3.10/site-packages:/home/basestation/base_ws/install/base_launch/lib/python3.10/site-packages:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/local/lib/python3.10/dist-packages:/home/basestation/magnav_sim_ws/build/nn_data_collector:/home/basestation/magnav_sim_ws/install/nn_data_collector/lib/python3.10/site-packages:/home/basestation/magnav_sim_ws/build/magnav_nn_sim:/home/basestation/magnav_sim_ws/install/magnav_nn_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('ISAACSIM', '/home/basestation/isaacsim/isaac-sim.sh')]), 'shell': False}
+[2.226490] (sjtu_drone_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o\x1b[0m\n'}
+[2.226586] (sjtu_drone_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone_private.cpp.o\x1b[0m\n'}
+[2.226888] (sjtu_drone_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o\x1b[0m\n'}
+[2.301929] (-) TimerEvent: {}
+[2.402139] (-) TimerEvent: {}
+[2.502399] (-) TimerEvent: {}
+[2.602638] (-) TimerEvent: {}
+[2.702862] (-) TimerEvent: {}
+[2.803083] (-) TimerEvent: {}
+[2.903321] (-) TimerEvent: {}
+[3.003576] (-) TimerEvent: {}
+[3.103747] (-) TimerEvent: {}
+[3.203960] (-) TimerEvent: {}
+[3.304208] (-) TimerEvent: {}
+[3.404413] (-) TimerEvent: {}
+[3.504652] (-) TimerEvent: {}
+[3.604972] (-) TimerEvent: {}
+[3.705195] (-) TimerEvent: {}
+[3.805423] (-) TimerEvent: {}
+[3.905673] (-) TimerEvent: {}
+[4.005929] (-) TimerEvent: {}
+[4.106250] (-) TimerEvent: {}
+[4.206560] (-) TimerEvent: {}
+[4.306872] (-) TimerEvent: {}
+[4.407190] (-) TimerEvent: {}
+[4.507504] (-) TimerEvent: {}
+[4.607761] (-) TimerEvent: {}
+[4.707979] (-) TimerEvent: {}
+[4.808287] (-) TimerEvent: {}
+[4.908546] (-) TimerEvent: {}
+[5.008844] (-) TimerEvent: {}
+[5.109161] (-) TimerEvent: {}
+[5.209405] (-) TimerEvent: {}
+[5.309681] (-) TimerEvent: {}
+[5.409911] (-) TimerEvent: {}
+[5.510112] (-) TimerEvent: {}
+[5.610320] (-) TimerEvent: {}
+[5.710527] (-) TimerEvent: {}
+[5.810738] (-) TimerEvent: {}
+[5.910960] (-) TimerEvent: {}
+[6.011201] (-) TimerEvent: {}
+[6.111428] (-) TimerEvent: {}
+[6.211680] (-) TimerEvent: {}
+[6.311917] (-) TimerEvent: {}
+[6.412135] (-) TimerEvent: {}
+[6.512343] (-) TimerEvent: {}
+[6.612554] (-) TimerEvent: {}
+[6.712741] (-) TimerEvent: {}
+[6.812941] (-) TimerEvent: {}
+[6.913172] (-) TimerEvent: {}
+[7.013488] (-) TimerEvent: {}
+[7.113806] (-) TimerEvent: {}
+[7.214016] (-) TimerEvent: {}
+[7.314321] (-) TimerEvent: {}
+[7.414630] (-) TimerEvent: {}
+[7.514849] (-) TimerEvent: {}
+[7.615054] (-) TimerEvent: {}
+[7.715255] (-) TimerEvent: {}
+[7.815561] (-) TimerEvent: {}
+[7.915894] (-) TimerEvent: {}
+[8.016116] (-) TimerEvent: {}
+[8.116333] (-) TimerEvent: {}
+[8.216580] (-) TimerEvent: {}
+[8.316788] (-) TimerEvent: {}
+[8.417014] (-) TimerEvent: {}
+[8.517225] (-) TimerEvent: {}
+[8.617441] (-) TimerEvent: {}
+[8.717640] (-) TimerEvent: {}
+[8.828988] (-) TimerEvent: {}
+[8.929188] (-) TimerEvent: {}
+[9.029389] (-) TimerEvent: {}
+[9.129615] (-) TimerEvent: {}
+[9.229819] (-) TimerEvent: {}
+[9.330021] (-) TimerEvent: {}
+[9.430219] (-) TimerEvent: {}
+[9.530455] (-) TimerEvent: {}
+[9.630708] (-) TimerEvent: {}
+[9.730919] (-) TimerEvent: {}
+[9.831134] (-) TimerEvent: {}
+[9.931357] (-) TimerEvent: {}
+[10.031620] (-) TimerEvent: {}
+[10.131846] (-) TimerEvent: {}
+[10.232065] (-) TimerEvent: {}
+[10.332361] (-) TimerEvent: {}
+[10.432605] (-) TimerEvent: {}
+[10.532828] (-) TimerEvent: {}
+[10.633063] (-) TimerEvent: {}
+[10.733270] (-) TimerEvent: {}
+[10.833489] (-) TimerEvent: {}
+[10.933750] (-) TimerEvent: {}
+[11.033966] (-) TimerEvent: {}
+[11.134209] (-) TimerEvent: {}
+[11.234451] (-) TimerEvent: {}
+[11.334677] (-) TimerEvent: {}
+[11.434888] (-) TimerEvent: {}
+[11.535091] (-) TimerEvent: {}
+[11.635288] (-) TimerEvent: {}
+[11.735528] (-) TimerEvent: {}
+[11.835846] (-) TimerEvent: {}
+[11.936048] (-) TimerEvent: {}
+[12.036236] (-) TimerEvent: {}
+[12.136437] (-) TimerEvent: {}
+[12.236664] (-) TimerEvent: {}
+[12.336863] (-) TimerEvent: {}
+[12.437062] (-) TimerEvent: {}
+[12.537287] (-) TimerEvent: {}
+[12.637516] (-) TimerEvent: {}
+[12.737714] (-) TimerEvent: {}
+[12.837944] (-) TimerEvent: {}
+[12.938142] (-) TimerEvent: {}
+[13.038343] (-) TimerEvent: {}
+[13.138538] (-) TimerEvent: {}
+[13.238763] (-) TimerEvent: {}
+[13.338965] (-) TimerEvent: {}
+[13.439165] (-) TimerEvent: {}
+[13.539372] (-) TimerEvent: {}
+[13.639570] (-) TimerEvent: {}
+[13.739743] (-) TimerEvent: {}
+[13.839966] (-) TimerEvent: {}
+[13.940183] (-) TimerEvent: {}
+[14.040386] (-) TimerEvent: {}
+[14.140597] (-) TimerEvent: {}
+[14.240804] (-) TimerEvent: {}
+[14.341007] (-) TimerEvent: {}
+[14.441207] (-) TimerEvent: {}
+[14.541409] (-) TimerEvent: {}
+[14.641642] (-) TimerEvent: {}
+[14.741847] (-) TimerEvent: {}
+[14.842077] (-) TimerEvent: {}
+[14.942277] (-) TimerEvent: {}
+[15.042482] (-) TimerEvent: {}
+[15.142682] (-) TimerEvent: {}
+[15.242956] (-) TimerEvent: {}
+[15.343294] (-) TimerEvent: {}
+[15.443487] (-) TimerEvent: {}
+[15.543685] (-) TimerEvent: {}
+[15.643900] (-) TimerEvent: {}
+[15.744115] (-) TimerEvent: {}
+[15.844330] (-) TimerEvent: {}
+[15.944544] (-) TimerEvent: {}
+[16.044843] (-) TimerEvent: {}
+[16.145078] (-) TimerEvent: {}
+[16.245284] (-) TimerEvent: {}
+[16.264301] (sjtu_drone_description) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.so\x1b[0m\n'}
+[16.345370] (-) TimerEvent: {}
+[16.445572] (-) TimerEvent: {}
+[16.545775] (-) TimerEvent: {}
+[16.645976] (-) TimerEvent: {}
+[16.746199] (-) TimerEvent: {}
+[16.846421] (-) TimerEvent: {}
+[16.946652] (-) TimerEvent: {}
+[17.046875] (-) TimerEvent: {}
+[17.147100] (-) TimerEvent: {}
+[17.235503] (sjtu_drone_description) StdoutLine: {'line': b'[100%] Built target plugin_drone\n'}
+[17.239490] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[17.240274] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'install'}
+[17.243434] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/basestation/ros2_ws/build/sjtu_drone_description'], 'cwd': '/home/basestation/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:setup.py install is deprecated::setuptools.command.install'), ('USER', 'basestation'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/basestation/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/basestation/base_ws/install/opencv_cam/lib:/home/basestation/base_ws/install/mml_guidance_msgs/lib:/home/basestation/base_ws/install/crazyflie_interfaces/lib:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/basestation/isaacsim/exts/omni.isaac.ros2_bridge/humble/lib'), ('HOME', '/home/basestation'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_pc.xml'), ('OLDPWD', '/home/basestation/.local/lib/python3.10/site-packages'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/basestation/base_ws/install:/home/basestation/workspaces/dp_solver_ws/install:/home/basestation/magnav_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'basestation'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_SUPER_CLIENT', 'True'), ('USERNAME', 'basestation'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/basestation/miniconda3/condabin:/home/basestation/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/MAE-JS-GCLK2Z3:@/tmp/.ICE-unix/3037,unix/MAE-JS-GCLK2Z3:/tmp/.ICE-unix/3037'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d58c532_cdea_41f2_ba11_53a46dbb0532'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('MAMBA_ROOT_PREFIX', '/home/basestation/micromamba'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/basestation/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.168.0.107:11811;192.168.0.101:11811;192.168.0.104:11811;'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ISAACSIM_PYTHON', '/home/basestation/isaacsim/python.sh'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('MAMBA_EXE', '/home/basestation/.local/bin/micromamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/basestation/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/basestation/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/basestation/base_ws/install/robot_pid/lib/python3.10/site-packages:/home/basestation/base_ws/install/mocap_fake_radar/lib/python3.10/site-packages:/home/basestation/base_ws/install/mml_guidance_msgs/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/magnav_viz/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_pf/lib/python3.10/site-packages:/home/basestation/base_ws/install/magnav_entmap/lib/python3.10/site-packages:/home/basestation/base_ws/install/mag_mapping/lib/python3.10/site-packages:/home/basestation/base_ws/install/info_magnav/lib/python3.10/site-packages:/home/basestation/base_ws/install/homography_node/lib/python3.10/site-packages:/home/basestation/base_ws/install/drone_launch/lib/python3.10/site-packages:/home/basestation/base_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/basestation/base_ws/install/camera_detector/lib/python3.10/site-packages:/home/basestation/base_ws/install/base_launch/lib/python3.10/site-packages:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs/local/lib/python3.10/dist-packages:/home/basestation/magnav_sim_ws/build/nn_data_collector:/home/basestation/magnav_sim_ws/install/nn_data_collector/lib/python3.10/site-packages:/home/basestation/magnav_sim_ws/build/magnav_nn_sim:/home/basestation/magnav_sim_ws/install/magnav_nn_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/basestation/base_ws/install/opencv_cam:/home/basestation/base_ws/install/mocap_transform:/home/basestation/base_ws/install/mml_guidance_msgs:/home/basestation/base_ws/install/crazyflie_interfaces:/home/basestation/workspaces/dp_solver_ws/install/magnav_msgs:/home/basestation/workspaces/dp_solver_ws/install/dp_solver:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble'), ('ISAACSIM', '/home/basestation/isaacsim/isaac-sim.sh')]), 'shell': False}
+[17.245963] (sjtu_drone_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.246222] (sjtu_drone_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.246415] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h\n'}
+[17.247147] (-) TimerEvent: {}
+[17.248782] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h\n'}
+[17.250914] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h\n'}
+[17.253234] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh\n'}
+[17.255830] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv\n'}
+[17.257843] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config\n'}
+[17.260191] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config\n'}
+[17.262582] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae\n'}
+[17.264628] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl\n'}
+[17.266654] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf\n'}
+[17.268930] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf\n'}
+[17.270895] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro\n'}
+[17.273069] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world\n'}
+[17.275290] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description\n'}
+[17.277360] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description\n'}
+[17.279406] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh\n'}
+[17.281520] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv\n'}
+[17.284005] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh\n'}
+[17.286380] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv\n'}
+[17.288963] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash\n'}
+[17.291091] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh\n'}
+[17.293393] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh\n'}
+[17.295124] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv\n'}
+[17.297435] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv\n'}
+[17.299916] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description\n'}
+[17.302343] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.304068] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.306739] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.308987] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake\n'}
+[17.311202] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake\n'}
+[17.312946] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml\n'}
+[17.315214] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/basestation/ros2_ws/install/sjtu_drone_description/lib/libplugin_drone.so\n'}
+[17.324784] (sjtu_drone_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/basestation/ros2_ws/install/sjtu_drone_description/lib/libplugin_drone.so" to ""\n'}
+[17.324882] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake\n'}
+[17.324934] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/basestation/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake\n'}
+[17.325750] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[17.332613] (sjtu_drone_description) JobEnded: {'identifier': 'sjtu_drone_description', 'rc': 0}
+[17.333106] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/basestation/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble /usr/bin/cmake --build /home/basestation/ros2_ws/build/drive_drone -- -j24 -l24
+[0.031s] [ 25%] Built target tb3_follower_node
+[0.031s] [ 50%] Built target p1_a_drive_node
+[0.032s] [ 75%] Built target p1_b_tb3_follower
+[0.033s] [ 87%] [32mBuilding CXX object CMakeFiles/tb3_road_network_mover.dir/src/tb3_road_network_mover.cpp.o[0m
+[4.366s] [100%] [1m[32mLinking CXX executable tb3_road_network_mover[0m
+[4.576s] [100%] Built target tb3_road_network_mover
+[4.580s] Invoked command in '/home/basestation/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble /usr/bin/cmake --build /home/basestation/ros2_ws/build/drive_drone -- -j24 -l24
+[4.584s] Invoking command in '/home/basestation/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble /usr/bin/cmake --install /home/basestation/ros2_ws/build/drive_drone
+[4.585s] -- Install configuration: ""
+[4.585s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/lib/drive_drone/p1_a_drive_node
+[4.585s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/lib/drive_drone/p1_b_tb3_follower
+[4.586s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/lib/drive_drone/tb3_follower_node
+[4.586s] -- Installing: /home/basestation/ros2_ws/install/drive_drone/lib/drive_drone/tb3_road_network_mover
+[4.589s] -- Set non-toolchain portion of runtime path of "/home/basestation/ros2_ws/install/drive_drone/lib/drive_drone/tb3_road_network_mover" to ""
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone//launch
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_a_drone_fly_gazebo_rviz.launch.py
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/ament_index/resource_index/package_run_dependencies/drive_drone
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/ament_index/resource_index/parent_prefix_path/drive_drone
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.sh
+[4.589s] -- Installing: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.dsv
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/environment/path.sh
+[4.589s] -- Installing: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/environment/path.dsv
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/local_setup.bash
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/local_setup.sh
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/local_setup.zsh
+[4.589s] -- Installing: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/local_setup.dsv
+[4.589s] -- Installing: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/package.dsv
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/ament_index/resource_index/packages/drive_drone
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig.cmake
+[4.589s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig-version.cmake
+[4.590s] -- Up-to-date: /home/basestation/ros2_ws/install/drive_drone/share/drive_drone/package.xml
+[4.590s] Invoked command in '/home/basestation/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basestation/base_ws/install/ros2_shared:/home/basestation/base_ws/install/robot_pid:/home/basestation/base_ws/install/mocap_fake_radar:/home/basestation/base_ws/install/magnav_viz:/home/basestation/base_ws/install/magnav_pf:/home/basestation/base_ws/install/magnav_entmap:/home/basestation/base_ws/install/mag_mapping:/home/basestation/base_ws/install/info_magnav:/home/basestation/base_ws/install/homography_node:/home/basestation/base_ws/install/drone_launch:/home/basestation/base_ws/install/camera_detector:/home/basestation/base_ws/install/base_launch:/home/basestation/magnav_sim_ws/install/nn_data_collector:/home/basestation/magnav_sim_ws/install/magnav_nn_sim:/opt/ros/humble /usr/bin/cmake --install /home/basestation/ros2_ws/build/drive_drone
