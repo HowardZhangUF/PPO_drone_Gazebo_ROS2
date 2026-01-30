@@ -1,9 +1,0 @@
-[ 25%] Built target p1_a_drive_node
-[ 50%] Built target p1_b_tb3_follower
-[ 62%] [32mBuilding CXX object CMakeFiles/tb3_circle_mover.dir/src/tb3_circle_mover.cpp.o[0m
-[ 87%] Built target tb3_follower_node
-[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/basestation/ros2_ws/src/drive_drone/src/tb3_circle_mover.cpp: No such file or directory
-compilation terminated.
-gmake[2]: *** [CMakeFiles/tb3_circle_mover.dir/build.make:79: CMakeFiles/tb3_circle_mover.dir/src/tb3_circle_mover.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/tb3_circle_mover.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

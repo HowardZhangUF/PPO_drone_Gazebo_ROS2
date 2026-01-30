@@ -1,0 +1,31 @@
+[7.808s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build --no-deps symlink_data
+[10.224s] running develop
+[11.782s] running egg_info
+[11.782s] creating sjtu_drone_bringup.egg-info
+[11.792s] writing sjtu_drone_bringup.egg-info/PKG-INFO
+[11.793s] writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt
+[11.793s] writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt
+[11.794s] writing requirements to sjtu_drone_bringup.egg-info/requires.txt
+[11.794s] writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt
+[11.795s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[11.801s] reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[11.808s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[11.824s] running build_ext
+[11.824s] Creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)
+[11.826s] Installing spawn_drone script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[11.827s] 
+[11.829s] Installed /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup
+[11.840s] running symlink_data
+[11.844s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/ament_index
+[11.845s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/ament_index/resource_index
+[11.845s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[11.846s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/resource/sjtu_drone_bringup -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[11.853s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/package.xml -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup
+[11.854s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[11.855s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/launch/sjtu_drone_bringup.launch.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[11.855s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[11.860s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[11.861s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/rviz/rviz.rviz -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[11.861s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config
+[11.862s] symbolically linking /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/config/drone.yaml -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config
+[12.013s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build --no-deps symlink_data

@@ -1,0 +1,78 @@
+[0.186s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[5.255s] -- The C compiler identification is GNU 11.4.0
+[5.255s] -- The CXX compiler identification is GNU 11.4.0
+[5.262s] -- Detecting C compiler ABI info
+[5.274s] -- Detecting C compiler ABI info - done
+[5.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.275s] -- Detecting C compile features
+[5.276s] -- Detecting C compile features - done
+[5.276s] -- Detecting CXX compiler ABI info
+[5.277s] -- Detecting CXX compiler ABI info - done
+[5.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.283s] -- Detecting CXX compile features
+[5.284s] -- Detecting CXX compile features - done
+[5.284s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.290s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.290s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.291s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[5.291s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.292s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.306s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.308s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.310s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.282s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.987s] -- Looking for pthread.h
+[8.547s] -- Looking for pthread.h - found
+[8.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.159s] -- Found Threads: TRUE  
+[9.908s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.036s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.225s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[10.410s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[10.557s] -- Found OpenCV: /usr (found version "4.5.4") 
+[11.299s] -- Configuring done
+[11.524s] -- Generating done
+[11.610s] -- Build files have been written to: /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone
+[11.680s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[11.698s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
+[12.023s] [35m[1mConsolidate compiler generated dependencies of target p1_a_drive_node[0m
+[12.024s] [35m[1mConsolidate compiler generated dependencies of target tb3_road_network_mover[0m
+[12.065s] [35m[1mConsolidate compiler generated dependencies of target tb3_follower_node[0m
+[12.125s] [35m[1mConsolidate compiler generated dependencies of target p1_b_tb3_follower[0m
+[12.212s] [ 25%] Built target tb3_follower_node
+[12.283s] [ 50%] Built target p1_a_drive_node
+[12.316s] [ 75%] Built target tb3_road_network_mover
+[12.396s] [100%] Built target p1_b_tb3_follower
+[12.497s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
+[12.558s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone
+[12.602s] -- Install configuration: ""
+[12.603s] -- Execute custom install script
+[12.606s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/drive_drone/p1_a_drive_node
+[12.607s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/drive_drone/p1_b_tb3_follower
+[12.609s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/drive_drone/tb3_follower_node
+[12.610s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/drive_drone/tb3_road_network_mover
+[12.612s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone//launch/drone_dual_tb3_gazebo.launch.py
+[12.617s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone//launch/dual_tb3_road_network.launch.py
+[12.618s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone//launch/p1_a_drone_fly_gazebo_rviz.launch.py
+[12.622s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+[12.628s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/ament_index/resource_index/package_run_dependencies/drive_drone
+[12.629s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/ament_index/resource_index/parent_prefix_path/drive_drone
+[12.631s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/environment/ament_prefix_path.sh
+[12.632s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/environment/ament_prefix_path.dsv
+[12.632s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/environment/path.sh
+[12.635s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/environment/path.dsv
+[12.637s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/local_setup.bash
+[12.638s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/local_setup.sh
+[12.639s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/local_setup.zsh
+[12.639s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/local_setup.dsv
+[12.640s] -- Symlinking: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.dsv
+[12.688s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/ament_index/resource_index/packages/drive_drone
+[12.691s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/cmake/drive_droneConfig.cmake
+[12.692s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/cmake/drive_droneConfig-version.cmake
+[12.693s] -- Up-to-date symlink: /home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.xml
+[12.705s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone

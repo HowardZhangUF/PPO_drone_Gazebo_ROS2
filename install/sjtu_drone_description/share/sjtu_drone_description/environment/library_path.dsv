@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description/ament_cmake_environment_hooks/library_path.dsv

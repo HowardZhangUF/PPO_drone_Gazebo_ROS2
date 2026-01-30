@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.pdb"
-  "/home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.so"
+  "/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.pdb"
+  "/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.so"
   "CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o"
   "CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o.d"
   "CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o"

@@ -1,7 +1,7 @@
 CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o: \
- /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/src/plugin_drone.cpp \
+ /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/src/plugin_drone.cpp \
  /usr/include/stdc-predef.h \
- /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h \
+ /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h \
  /usr/include/gazebo-11/gazebo/physics/Link.hh /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
@@ -1719,7 +1719,7 @@ CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o: \
  /usr/include/gazebo-11/gazebo/physics/WorldState.hh \
  /usr/include/gazebo-11/gazebo/physics/LightState.hh \
  /usr/include/gazebo-11/gazebo/physics/Wind.hh \
- /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h \
+ /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h \
  /opt/ros/humble/include/gazebo_ros/node.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -2234,7 +2234,7 @@ CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /home/basestation/ros2_ws/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h \
+ /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h \
  /usr/include/gazebo-11/gazebo/gazebo.hh \
  /usr/include/gazebo-11/gazebo/gazebo_core.hh \
  /usr/include/gazebo-11/gazebo/common/common.hh \
@@ -2330,62 +2330,57 @@ CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o: \
  /usr/include/gazebo-11/gazebo/common/VideoEncoder.hh \
  /usr/include/gazebo-11/gazebo/common/WeakBind.hh \
  /usr/include/gazebo-11/gazebo/common/ffmpeg_inc.h \
- /usr/local/include/libavcodec/avcodec.h \
- /usr/local/include/libavutil/samplefmt.h \
- /usr/local/include/libavutil/attributes.h \
- /usr/local/include/libavutil/avutil.h \
- /usr/local/include/libavutil/common.h /usr/include/inttypes.h \
- /usr/local/include/libavutil/attributes.h \
- /usr/local/include/libavutil/error.h \
- /usr/local/include/libavutil/macros.h \
- /usr/local/include/libavutil/avconfig.h \
- /usr/local/include/libavutil/version.h \
- /usr/local/include/libavutil/mem.h \
- /usr/local/include/libavutil/rational.h \
- /usr/local/include/libavutil/mathematics.h \
- /usr/local/include/libavutil/intfloat.h \
- /usr/local/include/libavutil/log.h /usr/local/include/libavutil/pixfmt.h \
- /usr/local/include/libavutil/buffer.h \
- /usr/local/include/libavutil/channel_layout.h \
- /usr/local/include/libavutil/dict.h /usr/local/include/libavutil/frame.h \
- /usr/local/include/libavutil/avutil.h \
- /usr/local/include/libavutil/buffer.h \
- /usr/local/include/libavutil/channel_layout.h \
- /usr/local/include/libavutil/dict.h \
- /usr/local/include/libavutil/samplefmt.h \
- /usr/local/include/libavutil/log.h /usr/local/include/libavutil/pixfmt.h \
- /usr/local/include/libavutil/rational.h \
- /usr/local/include/libavcodec/codec.h \
- /usr/local/include/libavutil/hwcontext.h \
- /usr/local/include/libavutil/frame.h \
- /usr/local/include/libavcodec/codec_id.h \
- /usr/local/include/libavcodec/version_major.h \
- /usr/local/include/libavcodec/version_major.h \
- /usr/local/include/libavcodec/codec_id.h \
- /usr/local/include/libavcodec/defs.h \
- /usr/local/include/libavcodec/packet.h \
- /usr/local/include/libavutil/version.h \
- /usr/local/include/libavcodec/version.h \
- /usr/local/include/libavcodec/codec_desc.h \
- /usr/local/include/libavcodec/codec_par.h \
- /usr/local/include/libavformat/avformat.h \
- /usr/local/include/libavcodec/codec_par.h \
- /usr/local/include/libavcodec/defs.h \
- /usr/local/include/libavcodec/packet.h \
- /usr/local/include/libavformat/avio.h \
- /usr/local/include/libavformat/version_major.h \
- /usr/local/include/libavformat/version.h \
- /usr/local/include/libavformat/version_major.h \
- /usr/local/include/libavcodec/codec.h \
- /usr/local/include/libavutil/imgutils.h \
- /usr/local/include/libavutil/pixdesc.h \
- /usr/local/include/libavutil/opt.h \
- /usr/local/include/libswscale/swscale.h \
- /usr/local/include/libswscale/version_major.h \
- /usr/local/include/libswscale/version.h \
- /usr/local/include/libavdevice/avdevice.h \
- /usr/local/include/libavdevice/version_major.h \
- /usr/local/include/libavdevice/version.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h \
+ /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/avutil.h \
+ /usr/include/x86_64-linux-gnu/libavutil/common.h /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
+ /usr/include/x86_64-linux-gnu/libavutil/macros.h \
+ /usr/include/x86_64-linux-gnu/libavutil/version.h \
+ /usr/include/x86_64-linux-gnu/libavutil/avconfig.h \
+ /usr/include/x86_64-linux-gnu/libavutil/mem.h \
+ /usr/include/x86_64-linux-gnu/libavutil/error.h \
+ /usr/include/x86_64-linux-gnu/libavutil/rational.h \
+ /usr/include/x86_64-linux-gnu/libavutil/mathematics.h \
+ /usr/include/x86_64-linux-gnu/libavutil/intfloat.h \
+ /usr/include/x86_64-linux-gnu/libavutil/log.h \
+ /usr/include/x86_64-linux-gnu/libavutil/pixfmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
+ /usr/include/x86_64-linux-gnu/libavutil/avutil.h \
+ /usr/include/x86_64-linux-gnu/libavutil/buffer.h \
+ /usr/include/x86_64-linux-gnu/libavutil/cpu.h \
+ /usr/include/x86_64-linux-gnu/libavutil/channel_layout.h \
+ /usr/include/x86_64-linux-gnu/libavutil/dict.h \
+ /usr/include/x86_64-linux-gnu/libavutil/frame.h \
+ /usr/include/x86_64-linux-gnu/libavutil/buffer.h \
+ /usr/include/x86_64-linux-gnu/libavutil/dict.h \
+ /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/hwcontext.h \
+ /usr/include/x86_64-linux-gnu/libavutil/frame.h \
+ /usr/include/x86_64-linux-gnu/libavutil/log.h \
+ /usr/include/x86_64-linux-gnu/libavutil/pixfmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/rational.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/bsf.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_id.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/packet.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/version.h \
+ /usr/include/x86_64-linux-gnu/libavutil/version.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_id.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_desc.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/version.h \
+ /usr/include/x86_64-linux-gnu/libavformat/avformat.h \
+ /usr/include/x86_64-linux-gnu/libavformat/avio.h \
+ /usr/include/x86_64-linux-gnu/libavutil/common.h \
+ /usr/include/x86_64-linux-gnu/libavformat/version.h \
+ /usr/include/x86_64-linux-gnu/libavutil/imgutils.h \
+ /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h \
+ /usr/include/x86_64-linux-gnu/libavutil/opt.h \
+ /usr/include/x86_64-linux-gnu/libswscale/swscale.h \
+ /usr/include/x86_64-linux-gnu/libswscale/version.h \
+ /usr/include/x86_64-linux-gnu/libavdevice/avdevice.h \
+ /usr/include/x86_64-linux-gnu/libavdevice/version.h \
  /usr/include/gazebo-11/gazebo/common/GTSMeshUtils.hh \
  /usr/include/gazebo-11/gazebo/common/MeshCSG.hh \
  /usr/include/gazebo-11/gazebo/transport/transport.hh \

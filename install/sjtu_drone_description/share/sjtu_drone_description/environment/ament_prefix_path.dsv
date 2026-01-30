@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description/ament_cmake_environment_hooks/ament_prefix_path.dsv

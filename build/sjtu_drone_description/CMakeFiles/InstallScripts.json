@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/basestation/ros2_ws/build/sjtu_drone_description/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

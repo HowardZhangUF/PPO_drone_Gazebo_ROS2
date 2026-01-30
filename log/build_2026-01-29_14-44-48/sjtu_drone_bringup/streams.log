@@ -1,0 +1,17 @@
+[8.882s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build --no-deps symlink_data
+[11.227s] running develop
+[12.635s] running egg_info
+[12.636s] writing sjtu_drone_bringup.egg-info/PKG-INFO
+[12.648s] writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt
+[12.653s] writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt
+[12.654s] writing requirements to sjtu_drone_bringup.egg-info/requires.txt
+[12.658s] writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt
+[12.658s] reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[12.685s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[12.707s] running build_ext
+[12.708s] Creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)
+[12.716s] Installing spawn_drone script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[12.721s] 
+[12.722s] Installed /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup
+[12.722s] running symlink_data
+[13.009s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build --no-deps symlink_data

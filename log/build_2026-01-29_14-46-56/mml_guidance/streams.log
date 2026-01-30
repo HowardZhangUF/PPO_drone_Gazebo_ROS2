@@ -1,0 +1,19 @@
+[6.379s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance/build --no-deps symlink_data
+[7.967s] running develop
+[8.913s] running egg_info
+[8.915s] writing mml_guidance.egg-info/PKG-INFO
+[8.916s] writing dependency_links to mml_guidance.egg-info/dependency_links.txt
+[8.918s] writing entry points to mml_guidance.egg-info/entry_points.txt
+[8.919s] writing requirements to mml_guidance.egg-info/requires.txt
+[8.920s] writing top-level names to mml_guidance.egg-info/top_level.txt
+[8.932s] reading manifest file 'mml_guidance.egg-info/SOURCES.txt'
+[8.941s] writing manifest file 'mml_guidance.egg-info/SOURCES.txt'
+[8.950s] running build_ext
+[8.952s] Creating /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/python3.10/site-packages/mml-guidance.egg-link (link to .)
+[8.956s] Installing guidance script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance
+[8.957s] Installing markov_goal_pose script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance
+[8.958s] Installing mml_pf_visualization script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance
+[8.959s] Installing rl_gazebo_multi_tracker script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance
+[8.960s] 
+[8.960s] Installed /home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance
+[8.961s] running symlink_data

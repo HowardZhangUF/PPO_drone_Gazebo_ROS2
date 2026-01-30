@@ -1,13 +1,12 @@
-Metadata-Version: 2.4
-Name: mml_guidance
+Metadata-Version: 2.1
+Name: mml-guidance
 Version: 0.0.1
-Summary: MML Guidance Package
-Maintainer: your_name
-Maintainer-email: your_email@example.com
-License: TODO: License declaration
-Requires-Dist: setuptools
-Dynamic: license
-Dynamic: maintainer
-Dynamic: maintainer-email
-Dynamic: requires-dist
-Dynamic: summary
+Summary: Launch package for mml guidance project
+Home-page: UNKNOWN
+Maintainer: andres pulido
+Maintainer-email: andrespulido@ufl.edu
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

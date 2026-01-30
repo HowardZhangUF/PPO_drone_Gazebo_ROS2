@@ -1,0 +1,127 @@
+[5.173s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description
+[5.966s] -- The C compiler identification is GNU 11.4.0
+[6.601s] -- The CXX compiler identification is GNU 11.4.0
+[6.661s] -- Detecting C compiler ABI info
+[7.694s] -- Detecting C compiler ABI info - done
+[7.757s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.767s] -- Detecting C compile features
+[7.768s] -- Detecting C compile features - done
+[7.813s] -- Detecting CXX compiler ABI info
+[8.682s] -- Detecting CXX compiler ABI info - done
+[8.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.786s] -- Detecting CXX compile features
+[8.790s] -- Detecting CXX compile features - done
+[8.843s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.848s] -- Checking for module 'OGRE'
+[9.065s] --   Found OGRE, version 1.9.0
+[9.581s] -- Checking for module 'OGRE-Terrain'
+[9.692s] --   Found OGRE-Terrain, version 1.9.0
+[10.084s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.111s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.242s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.360s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[12.748s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.794s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.857s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.382s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.405s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.018s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.227s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.645s] -- Looking for pthread.h
+[15.048s] -- Looking for pthread.h - found
+[15.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.529s] -- Found Threads: TRUE  
+[15.874s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[15.971s] -- Checking for module 'bullet>=2.82'
+[16.075s] --   Found bullet, version 3.05
+[16.900s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[17.291s] -- Found assimp: /usr/include (found version "5.2.0") 
+[17.476s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[17.694s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[17.774s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[17.825s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.869s] -- Searching for dependencies of ignition-math6
+[17.878s] -- Looking for OGRE...
+[17.881s] -- OGRE_PREFIX_WATCH changed.
+[17.913s] -- Checking for module 'OGRE'
+[18.010s] --   Found OGRE, version 1.9.0
+[18.251s] -- Found Ogre Ghadamon (1.9.0)
+[18.346s] -- Looking for OGRE_Paging...
+[18.385s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[18.385s] -- Looking for OGRE_Terrain...
+[18.424s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[18.424s] -- Looking for OGRE_Property...
+[18.462s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[18.463s] -- Looking for OGRE_RTShaderSystem...
+[18.501s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[18.502s] -- Looking for OGRE_Volume...
+[18.538s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[18.539s] -- Looking for OGRE_Overlay...
+[18.576s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[19.685s] -- Looking for ignition-math6 -- found version 6.15.1
+[19.720s] -- Looking for ignition-transport8 -- found version 8.2.1
+[19.722s] -- Searching for dependencies of ignition-transport8
+[19.914s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[20.077s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[20.124s] -- Checking for module 'libzmq >= 4'
+[20.305s] --   Found libzmq , version 4.3.4
+[20.585s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[20.621s] -- Checking for module 'uuid'
+[20.706s] --   Found uuid, version 2.37.2
+[20.916s] -- Found UUID: TRUE  
+[20.937s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[20.939s] -- Searching for dependencies of ignition-msgs5
+[21.101s] -- Looking for ignition-math6 -- found version 6.15.1
+[21.129s] -- Checking for module 'tinyxml2'
+[21.214s] --   Found tinyxml2, version 9.0.0
+[21.439s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[21.461s] -- Looking for ignition-common3 -- found version 3.14.0
+[21.464s] -- Searching for dependencies of ignition-common3
+[21.467s] -- Looking for dlfcn.h - found
+[21.471s] -- Looking for libdl - found
+[21.479s] -- Found DL: TRUE  
+[21.542s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[21.544s] -- Searching for <ignition-common3> component [graphics]
+[21.567s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[21.571s] -- Searching for dependencies of ignition-common3-graphics
+[21.573s] -- Looking for ignition-math6 -- found version 6.15.1
+[21.603s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[21.607s] -- Searching for dependencies of ignition-fuel_tools4
+[22.131s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[22.184s] -- Checking for module 'jsoncpp'
+[22.280s] --   Found jsoncpp, version 1.9.5
+[22.499s] -- Found JSONCPP: TRUE  
+[22.530s] -- Checking for module 'libzip'
+[22.611s] --   Found libzip, version 1.7.3
+[22.828s] -- Found ZIP: TRUE  
+[22.831s] -- Looking for ignition-common3 -- found version 3.14.0
+[22.834s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.836s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[22.862s] -- Gazebo version: 11.10
+[22.863s] -- Checking for module 'tbb'
+[22.953s] --   Found tbb, version 2021.5.0
+[23.287s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[23.288s]   By not providing "Findgazebo_plugins.cmake" in CMAKE_MODULE_PATH this
+[23.288s]   project has asked CMake to find a package configuration file provided by
+[23.289s]   "gazebo_plugins", but CMake did not find one.
+[23.289s] 
+[23.289s]   Could not find a package configuration file provided by "gazebo_plugins"
+[23.290s]   with any of the following names:
+[23.290s] 
+[23.290s]     gazebo_pluginsConfig.cmake
+[23.290s]     gazebo_plugins-config.cmake
+[23.291s] 
+[23.291s]   Add the installation prefix of "gazebo_plugins" to CMAKE_PREFIX_PATH or set
+[23.291s]   "gazebo_plugins_DIR" to a directory containing one of the above files.  If
+[23.291s]   "gazebo_plugins" provides a separate development package or SDK, be sure it
+[23.291s]   has been installed.
+[23.292s] 
+[23.292s] [0m
+[23.292s] -- Configuring incomplete, errors occurred!
+[23.292s] See also "/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description/CMakeFiles/CMakeOutput.log".
+[23.348s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/src/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description

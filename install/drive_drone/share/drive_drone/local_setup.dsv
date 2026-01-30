@@ -1,2 +1,1 @@
-source;share/drive_drone/environment/ament_prefix_path.sh
-source;share/drive_drone/environment/path.sh
+/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,8 @@
+[submodule "src/sjtu_drone"]
+	path = src/sjtu_drone
+	url = https://github.com/NovoG93/sjtu_drone.git
+	branch = ros2
+[submodule "src/mml_python_sim"]
+	path = src/mml_python_sim
+	url = https://github.com/andrespulido8/mml_python_sim.git
+	branch = ros_dev
