@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.002055] (-) JobUnselected: {'identifier': 'drive_drone'}
+[0.002372] (-) JobUnselected: {'identifier': 'sjtu_drone_bringup'}
+[0.002526] (-) JobUnselected: {'identifier': 'sjtu_drone_control'}
+[0.002795] (-) JobUnselected: {'identifier': 'sjtu_drone_description'}
+[0.003293] (mml_guidance) JobQueued: {'identifier': 'mml_guidance', 'dependencies': OrderedDict()}
+[0.003460] (mml_guidance) JobStarted: {'identifier': 'mml_guidance'}
+[0.097112] (-) TimerEvent: {}
+[0.197873] (-) TimerEvent: {}
+[0.298562] (-) TimerEvent: {}
+[0.399561] (-) TimerEvent: {}
+[0.501548] (-) TimerEvent: {}
+[0.603141] (-) TimerEvent: {}
+[0.704210] (-) TimerEvent: {}
+[0.805306] (-) TimerEvent: {}
+[0.906125] (-) TimerEvent: {}
+[1.006867] (-) TimerEvent: {}
+[1.107805] (-) TimerEvent: {}
+[1.208601] (-) TimerEvent: {}
+[1.309451] (-) TimerEvent: {}
+[1.410115] (-) TimerEvent: {}
+[1.510914] (-) TimerEvent: {}
+[1.613346] (-) TimerEvent: {}
+[1.716124] (-) TimerEvent: {}
+[1.816850] (-) TimerEvent: {}
+[1.918129] (-) TimerEvent: {}
+[2.018925] (-) TimerEvent: {}
+[2.119743] (-) TimerEvent: {}
+[2.220903] (-) TimerEvent: {}
+[2.321615] (-) TimerEvent: {}
+[2.422345] (-) TimerEvent: {}
+[2.523075] (-) TimerEvent: {}
+[2.624103] (-) TimerEvent: {}
+[2.726950] (-) TimerEvent: {}
+[2.827761] (-) TimerEvent: {}
+[2.928392] (-) TimerEvent: {}
+[3.029107] (-) TimerEvent: {}
+[3.129685] (-) TimerEvent: {}
+[3.230367] (-) TimerEvent: {}
+[3.331065] (-) TimerEvent: {}
+[3.431726] (-) TimerEvent: {}
+[3.532400] (-) TimerEvent: {}
+[3.604431] (mml_guidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance/build', '--no-deps', 'symlink_data'], 'cwd': '/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'GZ_SIM_RESOURCE_PATH': ':/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds:/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds', 'LANGUAGE': 'en_US:en', 'USER': 'user', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XAUTHLOCALHOSTNAME': '', 'HOSTNAME': 'ros2-humble.user-GL752VW', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/user/.cache', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/user/PPO_drone_Gazebo_ROS2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3569', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'XDG_STATE_HOME': '/home/user/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'container': 'podman', '_CONDA_ROOT': '/home/user/miniconda3', 'COLCON_PREFIX_PATH': '/home/user/PPO_drone_Gazebo_ROS2/install:/home/user/PPO_drone_Gazebo_ROS2/src/mml_python_sim/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/user/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/user/miniconda3/condabin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user/.local/bin:/home/user/.local/bin:/opt/xtensa-esp-elf/bin:/opt/xtensa-esp-elf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.local/bin:/opt/xtensa-esp-elf/bin:/opt/xtensa-esp-elf/bin:/home/user/.local/bin', 'SESSION_MANAGER': 'local/user-GL752VW:@/tmp/.ICE-unix/3525,unix/user-GL752VW:/tmp/.ICE-unix/3525', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/56fab38a_25d6_4347_a07c_df4cacf53152', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAMBA_ROOT_PREFIX': '/home/user/micromamba', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_DATA_HOME': '/home/user/.local/share', 'XDG_CONFIG_HOME': '/home/user/.config', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone:/home/user/PPO_drone_Gazebo_ROS2/src/mml_python_sim/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/user/miniconda3/bin/python', 'SHELL': '/usr/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/user/miniconda3/bin/conda', 'MAMBA_EXE': '/home/user/.local/bin/micromamba', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance', 'CONTAINER_ID': 'ros2-humble', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/user/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/local/share:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/python3.10/site-packages:/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/python3.10/site-packages:/home/user/PPO_drone_Gazebo_ROS2/src/mml_python_sim/install/mml_guidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description:/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.632609] (-) TimerEvent: {}
+[3.733163] (-) TimerEvent: {}
+[3.833767] (-) TimerEvent: {}
+[3.934613] (-) TimerEvent: {}
+[4.035721] (-) TimerEvent: {}
+[4.136505] (-) TimerEvent: {}
+[4.237275] (-) TimerEvent: {}
+[4.338032] (-) TimerEvent: {}
+[4.438750] (-) TimerEvent: {}
+[4.539510] (-) TimerEvent: {}
+[4.640241] (-) TimerEvent: {}
+[4.740936] (-) TimerEvent: {}
+[4.841650] (-) TimerEvent: {}
+[4.942372] (-) TimerEvent: {}
+[4.987776] (mml_guidance) StdoutLine: {'line': b'running develop\n'}
+[5.042559] (-) TimerEvent: {}
+[5.143304] (-) TimerEvent: {}
+[5.243908] (-) TimerEvent: {}
+[5.344556] (-) TimerEvent: {}
+[5.445152] (-) TimerEvent: {}
+[5.545765] (-) TimerEvent: {}
+[5.646401] (-) TimerEvent: {}
+[5.747130] (-) TimerEvent: {}
+[5.829540] (mml_guidance) StdoutLine: {'line': b'running egg_info\n'}
+[5.830278] (mml_guidance) StdoutLine: {'line': b'writing mml_guidance.egg-info/PKG-INFO\n'}
+[5.830897] (mml_guidance) StdoutLine: {'line': b'writing dependency_links to mml_guidance.egg-info/dependency_links.txt\n'}
+[5.831582] (mml_guidance) StdoutLine: {'line': b'writing entry points to mml_guidance.egg-info/entry_points.txt\n'}
+[5.832194] (mml_guidance) StdoutLine: {'line': b'writing requirements to mml_guidance.egg-info/requires.txt\n'}
+[5.832726] (mml_guidance) StdoutLine: {'line': b'writing top-level names to mml_guidance.egg-info/top_level.txt\n'}
+[5.841273] (mml_guidance) StdoutLine: {'line': b"reading manifest file 'mml_guidance.egg-info/SOURCES.txt'\n"}
+[5.847264] (-) TimerEvent: {}
+[5.847934] (mml_guidance) StdoutLine: {'line': b"writing manifest file 'mml_guidance.egg-info/SOURCES.txt'\n"}
+[5.854281] (mml_guidance) StdoutLine: {'line': b'running build_ext\n'}
+[5.855377] (mml_guidance) StdoutLine: {'line': b'Creating /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/python3.10/site-packages/mml-guidance.egg-link (link to .)\n'}
+[5.860598] (mml_guidance) StdoutLine: {'line': b'Installing guidance script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance\n'}
+[5.861640] (mml_guidance) StdoutLine: {'line': b'Installing markov_goal_pose script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance\n'}
+[5.862264] (mml_guidance) StdoutLine: {'line': b'Installing mml_pf_visualization script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance\n'}
+[5.862874] (mml_guidance) StdoutLine: {'line': b'Installing rl_gazebo_multi_tracker script to /home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance/lib/mml_guidance\n'}
+[5.863873] (mml_guidance) StdoutLine: {'line': b'\n'}
+[5.864404] (mml_guidance) StdoutLine: {'line': b'Installed /home/user/PPO_drone_Gazebo_ROS2/build/mml_guidance\n'}
+[5.865038] (mml_guidance) StdoutLine: {'line': b'running symlink_data\n'}
+[5.947478] (-) TimerEvent: {}
+[5.958774] (mml_guidance) CommandEnded: {'returncode': 0}
+[6.014035] (mml_guidance) JobEnded: {'identifier': 'mml_guidance', 'rc': 0}
+[6.016454] (-) EventReactorShutdown: {}
