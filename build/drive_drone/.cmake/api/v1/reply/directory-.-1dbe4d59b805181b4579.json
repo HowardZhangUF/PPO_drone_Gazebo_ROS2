@@ -10,11 +10,11 @@
 		],
 		"files" : 
 		[
-			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
-			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
-			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
-			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
-			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
