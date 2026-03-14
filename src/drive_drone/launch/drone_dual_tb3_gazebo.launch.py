@@ -3,11 +3,12 @@
 
 """
 Launch file for TWO drones + dual TurtleBot3 robots with road network navigation.
-FIXED: Adds proper delays for Gazebo service availability
+FIXED: Process xacro and save to temp file for proper collision/physics
 """
 
 import os
 import yaml
+import tempfile
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import (
@@ -78,14 +79,18 @@ def generate_launch_description():
     xacro_file = os.path.join(drone_description_pkg, "urdf", xacro_file_name)
     yaml_file_path = os.path.join(drone_pkg, 'config', 'drone.yaml')
     
-    # Process xacro for both drones
-    robot_description_config_drone1 = xacro.process_file(xacro_file, mappings={"params_path": yaml_file_path})
-    robot_desc_drone1 = robot_description_config_drone1.toxml()
+    # Process xacro to get full URDF with collision/physics
+    robot_description_config = xacro.process_file(xacro_file, mappings={"params_path": yaml_file_path})
+    robot_desc = robot_description_config.toxml()
     
-    robot_description_config_drone2 = xacro.process_file(xacro_file, mappings={"params_path": yaml_file_path})
-    robot_desc_drone2 = robot_description_config_drone2.toxml()
+    # Save processed URDF to temporary file for spawn_drone script
+    temp_urdf = tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.urdf', prefix='drone_')
+    temp_urdf.write(robot_desc)
+    temp_urdf.flush()
+    urdf_file_path = temp_urdf.name
+    temp_urdf.close()
     
-    # Drone 1 namespace and setup
+    # Drone namespaces
     drone1_ns = "drone1"
     drone2_ns = "drone2"
 
@@ -98,10 +103,10 @@ def generate_launch_description():
         output="screen",
         parameters=[{
             "use_sim_time": use_sim_time, 
-            "robot_description": robot_desc_drone1, 
+            "robot_description": robot_desc, 
             "frame_prefix": drone1_ns + "/"
         }],
-        arguments=[robot_desc_drone1]
+        arguments=[robot_desc]
     )
     
     joint_state_publisher_drone1 = Node(
@@ -121,10 +126,10 @@ def generate_launch_description():
         output="screen",
         parameters=[{
             "use_sim_time": use_sim_time, 
-            "robot_description": robot_desc_drone2, 
+            "robot_description": robot_desc, 
             "frame_prefix": drone2_ns + "/"
         }],
-        arguments=[robot_desc_drone2]
+        arguments=[robot_desc]
     )
     
     joint_state_publisher_drone2 = Node(
@@ -151,11 +156,11 @@ def generate_launch_description():
         output="screen"
     )
     
-    # Spawn Drone 1 at position (0, 0, 0.3)
+    # Spawn Drone 1 at position (0, 0, 0.3) using processed URDF from temp file
     spawn_drone1 = Node(
         package="sjtu_drone_bringup",
         executable="spawn_drone",
-        arguments=[robot_desc_drone1, drone1_ns, "0.0", "0.0", "0.3"],
+        arguments=[urdf_file_path, drone1_ns, "0.0", "0.0", "0.3"],
         output="screen"
     )
     
@@ -168,7 +173,7 @@ def generate_launch_description():
     spawn_drone2_node = Node(
         package="sjtu_drone_bringup",
         executable="spawn_drone",
-        arguments=[robot_desc_drone2, drone2_ns, "3.0", "0.0", "0.3"],
+        arguments=[urdf_file_path, drone2_ns, "3.0", "0.0", "0.3"],
         output="screen"
     )
     

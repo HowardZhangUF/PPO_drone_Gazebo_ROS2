@@ -55,11 +55,6 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
         # remove trailing slash
         string(SUBSTRING "${dir}" 0 ${offset} dir)
       endif()
-      
-      # Create destination directory.
-      # This does *not* solve the problem of empty directories WITHIN the install tree,
-      # but does make sure that the top-level directory specified by the caller gets created.
-      file(MAKE_DIRECTORY "${destination}")
 
       # glob recursive files
       set(relative_files "")
@@ -327,14 +322,14 @@ ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_dr
 # install(FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/drive_drone" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/drive_drone" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/drive_drone/environment")
-ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/drive_drone/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/drive_drone/environment")
+ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/drive_drone/environment")
 
 # install(FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/drive_drone/environment")
 ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/drive_drone/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/drive_drone/environment")
-ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/drive_drone/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/drive_drone/environment")
+ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/drive_drone/environment")
 
 # install(FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/drive_drone/environment")
 ament_cmake_symlink_install_files("/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone" FILES "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/drive_drone/environment")

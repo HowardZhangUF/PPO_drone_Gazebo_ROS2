@@ -1,1 +1,0 @@
-/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py

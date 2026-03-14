@@ -1,0 +1,934 @@
+[0.000000] (-) TimerEvent: {}
+[0.001049] (-) JobUnselected: {'identifier': 'mml_guidance'}
+[0.001225] (-) JobUnselected: {'identifier': 'sjtu_drone_control'}
+[0.001368] (-) JobUnselected: {'identifier': 'sjtu_drone_description'}
+[0.001788] (drive_drone) JobQueued: {'identifier': 'drive_drone', 'dependencies': OrderedDict()}
+[0.001903] (sjtu_drone_bringup) JobQueued: {'identifier': 'sjtu_drone_bringup', 'dependencies': OrderedDict()}
+[0.001986] (drive_drone) JobStarted: {'identifier': 'drive_drone'}
+[0.045250] (sjtu_drone_bringup) JobStarted: {'identifier': 'sjtu_drone_bringup'}
+[0.078202] (drive_drone) JobProgress: {'identifier': 'drive_drone', 'progress': 'cmake'}
+[0.082108] (drive_drone) JobProgress: {'identifier': 'drive_drone', 'progress': 'build'}
+[0.085498] (drive_drone) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone', '--', '-j8', '-l8'], 'cwd': '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': ':/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds:/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds', 'LANGUAGE': 'en_US:en', 'USER': 'user', 'LC_TIME': 'en_US.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/user/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '1', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.109.5', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/226/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/user/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/226/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3013', 'BUNDLED_DEBUGPY_PATH': '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/user/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'WINDOWPATH': '2', 'PATH': '/home/user/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/user/miniconda3/bin:/home/user/miniconda3/condabin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user/.local/bin:/home/user/.local/bin:/opt/xtensa-esp-elf/bin:/opt/xtensa-esp-elf/bin:/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/user/.local/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/user-GL752VW:@/tmp/.ICE-unix/2957,unix/user-GL752VW:/tmp/.ICE-unix/2957', 'GTK_EXE_PREFIX': '/snap/code/226/usr', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e9307b5_1fb7_43ed_859c_b957e82b0edd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'MAMBA_ROOT_PREFIX': '/home/user/micromamba', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/226/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e6c6630eeef5a99d.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/user/.config/Code/User/workspaceStorage/1e893b8b93afd7b385b12f5f7b54722c/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/user/snap/code/226/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9d92ff8211.sock', 'GNOME_TERMINAL_SERVICE': ':1.109', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/user/snap/code/226/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/user/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': 'base', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/user/miniconda3/bin/conda', 'MAMBA_EXE': '/home/user/.local/bin/micromamba', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/user/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/home/user/snap/code/226/.local/share:/home/user/snap/code/226:/snap/code/226/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/user/miniconda3', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.096996] (-) TimerEvent: {}
+[0.197756] (-) TimerEvent: {}
+[0.298635] (-) TimerEvent: {}
+[0.356106] (drive_drone) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.398774] (-) TimerEvent: {}
+[0.499565] (-) TimerEvent: {}
+[0.600236] (-) TimerEvent: {}
+[0.701117] (-) TimerEvent: {}
+[0.801723] (-) TimerEvent: {}
+[0.902560] (-) TimerEvent: {}
+[1.003166] (-) TimerEvent: {}
+[1.094989] (drive_drone) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.103326] (-) TimerEvent: {}
+[1.204110] (-) TimerEvent: {}
+[1.304844] (-) TimerEvent: {}
+[1.405589] (-) TimerEvent: {}
+[1.485761] (drive_drone) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.505840] (-) TimerEvent: {}
+[1.606574] (-) TimerEvent: {}
+[1.707207] (-) TimerEvent: {}
+[1.807868] (-) TimerEvent: {}
+[1.891393] (drive_drone) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.908072] (-) TimerEvent: {}
+[2.008881] (-) TimerEvent: {}
+[2.109700] (-) TimerEvent: {}
+[2.210311] (-) TimerEvent: {}
+[2.299855] (drive_drone) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.310561] (-) TimerEvent: {}
+[2.411219] (-) TimerEvent: {}
+[2.441838] (drive_drone) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.511986] (-) TimerEvent: {}
+[2.617618] (-) TimerEvent: {}
+[2.724604] (-) TimerEvent: {}
+[2.818644] (drive_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.824781] (-) TimerEvent: {}
+[2.930813] (-) TimerEvent: {}
+[3.023767] (drive_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.031117] (-) TimerEvent: {}
+[3.132090] (-) TimerEvent: {}
+[3.232856] (-) TimerEvent: {}
+[3.334618] (-) TimerEvent: {}
+[3.435506] (-) TimerEvent: {}
+[3.536863] (-) TimerEvent: {}
+[3.640584] (-) TimerEvent: {}
+[3.743717] (-) TimerEvent: {}
+[3.847606] (-) TimerEvent: {}
+[3.948355] (-) TimerEvent: {}
+[4.048941] (-) TimerEvent: {}
+[4.072734] (drive_drone) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.106704] (drive_drone) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.149093] (-) TimerEvent: {}
+[4.249983] (-) TimerEvent: {}
+[4.350596] (-) TimerEvent: {}
+[4.396730] (drive_drone) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.450769] (-) TimerEvent: {}
+[4.489275] (drive_drone) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include (Required is at least version "2.13") \n'}
+[4.550944] (-) TimerEvent: {}
+[4.616338] (drive_drone) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.651113] (-) TimerEvent: {}
+[4.751836] (-) TimerEvent: {}
+[4.852560] (-) TimerEvent: {}
+[4.953591] (-) TimerEvent: {}
+[5.054415] (-) TimerEvent: {}
+[5.142080] (drive_drone) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[5.154612] (-) TimerEvent: {}
+[5.255144] (-) TimerEvent: {}
+[5.355899] (-) TimerEvent: {}
+[5.373667] (drive_drone) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.456065] (-) TimerEvent: {}
+[5.533290] (drive_drone) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[5.556241] (-) TimerEvent: {}
+[5.656940] (-) TimerEvent: {}
+[5.693066] (drive_drone) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[5.757130] (-) TimerEvent: {}
+[5.766270] (drive_drone) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[5.846130] (sjtu_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/sjtu_drone_bringup', 'build', '--build-base', '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build', 'install', '--record', '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_bringup', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': ':/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds:/home/user/PX4-Autopilot/Tools/simulation/gz/models:/home/user/PX4-Autopilot/Tools/simulation/gz/worlds', 'LANGUAGE': 'en_US:en', 'USER': 'user', 'LC_TIME': 'en_US.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/user/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '1', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.109.5', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/226/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/user/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/226/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3013', 'BUNDLED_DEBUGPY_PATH': '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/user/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'WINDOWPATH': '2', 'PATH': '/home/user/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/user/miniconda3/bin:/home/user/miniconda3/condabin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user/.local/bin:/home/user/.local/bin:/opt/xtensa-esp-elf/bin:/opt/xtensa-esp-elf/bin:/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/user/.local/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/user-GL752VW:@/tmp/.ICE-unix/2957,unix/user-GL752VW:/tmp/.ICE-unix/2957', 'GTK_EXE_PREFIX': '/snap/code/226/usr', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e9307b5_1fb7_43ed_859c_b957e82b0edd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'MAMBA_ROOT_PREFIX': '/home/user/micromamba', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/226/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e6c6630eeef5a99d.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/user/.config/Code/User/workspaceStorage/1e893b8b93afd7b385b12f5f7b54722c/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/user/snap/code/226/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9d92ff8211.sock', 'GNOME_TERMINAL_SERVICE': ':1.109', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/user/snap/code/226/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/user/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': 'base', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/user/miniconda3/bin/conda', 'MAMBA_EXE': '/home/user/.local/bin/micromamba', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/user/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/home/user/snap/code/226/.local/share:/home/user/snap/code/226:/snap/code/226/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/user/miniconda3', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.857281] (-) TimerEvent: {}
+[5.957965] (-) TimerEvent: {}
+[6.058577] (-) TimerEvent: {}
+[6.159257] (-) TimerEvent: {}
+[6.203249] (drive_drone) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[6.259480] (-) TimerEvent: {}
+[6.346394] (drive_drone) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.359628] (-) TimerEvent: {}
+[6.390533] (drive_drone) StdoutLine: {'line': b'-- Build files have been written to: /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone\n'}
+[6.459800] (-) TimerEvent: {}
+[6.560710] (-) TimerEvent: {}
+[6.649875] (drive_drone) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/p1_a_drive_node.dir/src/p1_a_drive_node.cpp.o\x1b[0m\n'}
+[6.660780] (drive_drone) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tb3_follower_node.dir/src/tb3_follower_node.cpp.o\x1b[0m\n'}
+[6.661681] (-) TimerEvent: {}
+[6.662173] (drive_drone) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/tb3_road_network_mover.dir/src/tb3_road_network_mover.cpp.o\x1b[0m\n'}
+[6.676972] (drive_drone) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o\x1b[0m\n'}
+[6.761874] (-) TimerEvent: {}
+[6.863572] (-) TimerEvent: {}
+[6.964283] (-) TimerEvent: {}
+[7.068896] (-) TimerEvent: {}
+[7.169695] (-) TimerEvent: {}
+[7.270561] (-) TimerEvent: {}
+[7.371421] (-) TimerEvent: {}
+[7.472042] (-) TimerEvent: {}
+[7.572729] (-) TimerEvent: {}
+[7.673550] (-) TimerEvent: {}
+[7.741733] (sjtu_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[7.773740] (-) TimerEvent: {}
+[7.874583] (-) TimerEvent: {}
+[7.899667] (sjtu_drone_bringup) StdoutLine: {'line': b'writing ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO\n'}
+[7.901018] (sjtu_drone_bringup) StdoutLine: {'line': b'writing dependency_links to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt\n'}
+[7.901995] (sjtu_drone_bringup) StdoutLine: {'line': b'writing entry points to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt\n'}
+[7.902990] (sjtu_drone_bringup) StdoutLine: {'line': b'writing requirements to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt\n'}
+[7.904740] (sjtu_drone_bringup) StdoutLine: {'line': b'writing top-level names to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt\n'}
+[7.974757] (-) TimerEvent: {}
+[8.075382] (-) TimerEvent: {}
+[8.176048] (-) TimerEvent: {}
+[8.276639] (-) TimerEvent: {}
+[8.284085] (sjtu_drone_bringup) StdoutLine: {'line': b"reading manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[8.289254] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[8.290142] (sjtu_drone_bringup) StdoutLine: {'line': b'running build\n'}
+[8.290540] (sjtu_drone_bringup) StdoutLine: {'line': b'running build_py\n'}
+[8.292441] (sjtu_drone_bringup) StdoutLine: {'line': b'running install\n'}
+[8.348924] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[8.376776] (-) TimerEvent: {}
+[8.477338] (-) TimerEvent: {}
+[8.564474] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_data\n'}
+[8.566839] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.577503] (-) TimerEvent: {}
+[8.678086] (-) TimerEvent: {}
+[8.776295] (sjtu_drone_bringup) StdoutLine: {'line': b"removing '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages/sjtu_drone_bringup-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.778431] (-) TimerEvent: {}
+[8.781550] (sjtu_drone_bringup) StdoutLine: {'line': b'Copying ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages/sjtu_drone_bringup-0.0.0-py3.12.egg-info\n'}
+[8.790406] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[8.878606] (-) TimerEvent: {}
+[8.979279] (-) TimerEvent: {}
+[9.007835] (drive_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone/src/p1_b_tb3_follower.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.h: No such file or directory\n'}
+[9.008767] (drive_drone) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"cv_bridge/cv_bridge.h"\x1b[m\x1b[K\n'}
+[9.009485] (drive_drone) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.010149] (drive_drone) StderrLine: {'line': b'compilation terminated.\n'}
+[9.023859] (drive_drone) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/p1_b_tb3_follower.dir/build.make:76: CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o] Error 1\n'}
+[9.024849] (drive_drone) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/p1_b_tb3_follower.dir/all] Error 2\n'}
+[9.025502] (drive_drone) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.079491] (-) TimerEvent: {}
+[9.180218] (-) TimerEvent: {}
+[9.280999] (-) TimerEvent: {}
+[9.381932] (-) TimerEvent: {}
+[9.483780] (-) TimerEvent: {}
+[9.585104] (-) TimerEvent: {}
+[9.686541] (-) TimerEvent: {}
+[9.787215] (-) TimerEvent: {}
+[9.852275] (sjtu_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/sjtu_drone_bringup\n'}
+[9.853048] (sjtu_drone_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/install.log'\n"}
+[9.888776] (-) TimerEvent: {}
+[9.995100] (-) TimerEvent: {}
+[10.010234] (sjtu_drone_bringup) CommandEnded: {'returncode': 0}
+[10.099219] (-) TimerEvent: {}
+[10.111315] (sjtu_drone_bringup) JobEnded: {'identifier': 'sjtu_drone_bringup', 'rc': 0}
+[10.199419] (-) TimerEvent: {}
+[10.304599] (-) TimerEvent: {}
+[10.405393] (-) TimerEvent: {}
+[10.506401] (-) TimerEvent: {}
+[10.609608] (-) TimerEvent: {}
+[10.710429] (-) TimerEvent: {}
+[10.812890] (-) TimerEvent: {}
+[10.913620] (-) TimerEvent: {}
+[11.014381] (-) TimerEvent: {}
+[11.115936] (-) TimerEvent: {}
+[11.216676] (-) TimerEvent: {}
+[11.317567] (-) TimerEvent: {}
+[11.418111] (-) TimerEvent: {}
+[11.518676] (-) TimerEvent: {}
+[11.619287] (-) TimerEvent: {}
+[11.720040] (-) TimerEvent: {}
+[11.821218] (-) TimerEvent: {}
+[11.921964] (-) TimerEvent: {}
+[12.026549] (-) TimerEvent: {}
+[12.131624] (-) TimerEvent: {}
+[12.232489] (-) TimerEvent: {}
+[12.338587] (-) TimerEvent: {}
+[12.440767] (-) TimerEvent: {}
+[12.541616] (-) TimerEvent: {}
+[12.644098] (-) TimerEvent: {}
+[12.744924] (-) TimerEvent: {}
+[12.845775] (-) TimerEvent: {}
+[12.946569] (-) TimerEvent: {}
+[13.047297] (-) TimerEvent: {}
+[13.148120] (-) TimerEvent: {}
+[13.248948] (-) TimerEvent: {}
+[13.349723] (-) TimerEvent: {}
+[13.450788] (-) TimerEvent: {}
+[13.552347] (-) TimerEvent: {}
+[13.653082] (-) TimerEvent: {}
+[13.753780] (-) TimerEvent: {}
+[13.854992] (-) TimerEvent: {}
+[13.956912] (-) TimerEvent: {}
+[14.058682] (-) TimerEvent: {}
+[14.159599] (-) TimerEvent: {}
+[14.260805] (-) TimerEvent: {}
+[14.364070] (-) TimerEvent: {}
+[14.466604] (-) TimerEvent: {}
+[14.567347] (-) TimerEvent: {}
+[14.668546] (-) TimerEvent: {}
+[14.769272] (-) TimerEvent: {}
+[14.870066] (-) TimerEvent: {}
+[14.971001] (-) TimerEvent: {}
+[15.072443] (-) TimerEvent: {}
+[15.173780] (-) TimerEvent: {}
+[15.275643] (-) TimerEvent: {}
+[15.377623] (-) TimerEvent: {}
+[15.478620] (-) TimerEvent: {}
+[15.579644] (-) TimerEvent: {}
+[15.680389] (-) TimerEvent: {}
+[15.781832] (-) TimerEvent: {}
+[15.883603] (-) TimerEvent: {}
+[15.984353] (-) TimerEvent: {}
+[16.085092] (-) TimerEvent: {}
+[16.186038] (-) TimerEvent: {}
+[16.286972] (-) TimerEvent: {}
+[16.389763] (-) TimerEvent: {}
+[16.491208] (-) TimerEvent: {}
+[16.592795] (-) TimerEvent: {}
+[16.694250] (-) TimerEvent: {}
+[16.795034] (-) TimerEvent: {}
+[16.895810] (-) TimerEvent: {}
+[16.997040] (-) TimerEvent: {}
+[17.099596] (-) TimerEvent: {}
+[17.201543] (-) TimerEvent: {}
+[17.302883] (-) TimerEvent: {}
+[17.404899] (-) TimerEvent: {}
+[17.508610] (-) TimerEvent: {}
+[17.609499] (-) TimerEvent: {}
+[17.710323] (-) TimerEvent: {}
+[17.813839] (-) TimerEvent: {}
+[17.914583] (-) TimerEvent: {}
+[18.016600] (-) TimerEvent: {}
+[18.118175] (-) TimerEvent: {}
+[18.220311] (-) TimerEvent: {}
+[18.321185] (-) TimerEvent: {}
+[18.422224] (-) TimerEvent: {}
+[18.523077] (-) TimerEvent: {}
+[18.623877] (-) TimerEvent: {}
+[18.726343] (-) TimerEvent: {}
+[18.829039] (-) TimerEvent: {}
+[18.931407] (-) TimerEvent: {}
+[19.032448] (-) TimerEvent: {}
+[19.133284] (-) TimerEvent: {}
+[19.238307] (-) TimerEvent: {}
+[19.340620] (-) TimerEvent: {}
+[19.442078] (-) TimerEvent: {}
+[19.544031] (-) TimerEvent: {}
+[19.645648] (-) TimerEvent: {}
+[19.748613] (-) TimerEvent: {}
+[19.854831] (-) TimerEvent: {}
+[19.960223] (-) TimerEvent: {}
+[20.063613] (-) TimerEvent: {}
+[20.166019] (-) TimerEvent: {}
+[20.275620] (-) TimerEvent: {}
+[20.376554] (-) TimerEvent: {}
+[20.482629] (-) TimerEvent: {}
+[20.583845] (-) TimerEvent: {}
+[20.690611] (-) TimerEvent: {}
+[20.791607] (-) TimerEvent: {}
+[20.894717] (-) TimerEvent: {}
+[20.996517] (-) TimerEvent: {}
+[21.098618] (-) TimerEvent: {}
+[21.199611] (-) TimerEvent: {}
+[21.303840] (-) TimerEvent: {}
+[21.407614] (-) TimerEvent: {}
+[21.512954] (-) TimerEvent: {}
+[21.615567] (-) TimerEvent: {}
+[21.720812] (-) TimerEvent: {}
+[21.828897] (-) TimerEvent: {}
+[21.931975] (-) TimerEvent: {}
+[22.032871] (-) TimerEvent: {}
+[22.135877] (-) TimerEvent: {}
+[22.236812] (-) TimerEvent: {}
+[22.337784] (-) TimerEvent: {}
+[22.439305] (-) TimerEvent: {}
+[22.542168] (-) TimerEvent: {}
+[22.645803] (-) TimerEvent: {}
+[22.748638] (-) TimerEvent: {}
+[22.849430] (-) TimerEvent: {}
+[22.952806] (-) TimerEvent: {}
+[23.053709] (-) TimerEvent: {}
+[23.156815] (-) TimerEvent: {}
+[23.257803] (-) TimerEvent: {}
+[23.358817] (-) TimerEvent: {}
+[23.461414] (-) TimerEvent: {}
+[23.563603] (-) TimerEvent: {}
+[23.664611] (-) TimerEvent: {}
+[23.766377] (-) TimerEvent: {}
+[23.870374] (-) TimerEvent: {}
+[23.973920] (-) TimerEvent: {}
+[24.076991] (-) TimerEvent: {}
+[24.177956] (-) TimerEvent: {}
+[24.279607] (-) TimerEvent: {}
+[24.380403] (-) TimerEvent: {}
+[24.481278] (-) TimerEvent: {}
+[24.582833] (-) TimerEvent: {}
+[24.686179] (-) TimerEvent: {}
+[24.787508] (-) TimerEvent: {}
+[24.888332] (-) TimerEvent: {}
+[24.989174] (-) TimerEvent: {}
+[25.090028] (-) TimerEvent: {}
+[25.190880] (-) TimerEvent: {}
+[25.292192] (-) TimerEvent: {}
+[25.393919] (-) TimerEvent: {}
+[25.494818] (-) TimerEvent: {}
+[25.595645] (-) TimerEvent: {}
+[25.696506] (-) TimerEvent: {}
+[25.797313] (-) TimerEvent: {}
+[25.898539] (-) TimerEvent: {}
+[26.002504] (-) TimerEvent: {}
+[26.103695] (-) TimerEvent: {}
+[26.209302] (-) TimerEvent: {}
+[26.314505] (-) TimerEvent: {}
+[26.419025] (-) TimerEvent: {}
+[26.522622] (-) TimerEvent: {}
+[26.623538] (-) TimerEvent: {}
+[26.726690] (-) TimerEvent: {}
+[26.834315] (-) TimerEvent: {}
+[26.936827] (-) TimerEvent: {}
+[27.040115] (-) TimerEvent: {}
+[27.142316] (-) TimerEvent: {}
+[27.247782] (-) TimerEvent: {}
+[27.354362] (-) TimerEvent: {}
+[27.457869] (-) TimerEvent: {}
+[27.565494] (-) TimerEvent: {}
+[27.667102] (-) TimerEvent: {}
+[27.771329] (-) TimerEvent: {}
+[27.872944] (-) TimerEvent: {}
+[27.978287] (-) TimerEvent: {}
+[28.087114] (-) TimerEvent: {}
+[28.189331] (-) TimerEvent: {}
+[28.290884] (-) TimerEvent: {}
+[28.392369] (-) TimerEvent: {}
+[28.493623] (-) TimerEvent: {}
+[28.594620] (-) TimerEvent: {}
+[28.695510] (-) TimerEvent: {}
+[28.797845] (-) TimerEvent: {}
+[28.899635] (-) TimerEvent: {}
+[29.002207] (-) TimerEvent: {}
+[29.103215] (-) TimerEvent: {}
+[29.204617] (-) TimerEvent: {}
+[29.305438] (-) TimerEvent: {}
+[29.406994] (-) TimerEvent: {}
+[29.507877] (-) TimerEvent: {}
+[29.608751] (-) TimerEvent: {}
+[29.709610] (-) TimerEvent: {}
+[29.810621] (-) TimerEvent: {}
+[29.911645] (-) TimerEvent: {}
+[30.014329] (-) TimerEvent: {}
+[30.118421] (-) TimerEvent: {}
+[30.219612] (-) TimerEvent: {}
+[30.321616] (-) TimerEvent: {}
+[30.424933] (-) TimerEvent: {}
+[30.526680] (-) TimerEvent: {}
+[30.632674] (-) TimerEvent: {}
+[30.736706] (-) TimerEvent: {}
+[30.837687] (-) TimerEvent: {}
+[30.938550] (-) TimerEvent: {}
+[31.042618] (-) TimerEvent: {}
+[31.146008] (-) TimerEvent: {}
+[31.246928] (-) TimerEvent: {}
+[31.349330] (-) TimerEvent: {}
+[31.451738] (-) TimerEvent: {}
+[31.556499] (-) TimerEvent: {}
+[31.660048] (-) TimerEvent: {}
+[31.761804] (-) TimerEvent: {}
+[31.862722] (-) TimerEvent: {}
+[31.963631] (-) TimerEvent: {}
+[32.064597] (-) TimerEvent: {}
+[32.165417] (-) TimerEvent: {}
+[32.266314] (-) TimerEvent: {}
+[32.368609] (-) TimerEvent: {}
+[32.469624] (-) TimerEvent: {}
+[32.572945] (-) TimerEvent: {}
+[32.676204] (-) TimerEvent: {}
+[32.780504] (-) TimerEvent: {}
+[32.881412] (-) TimerEvent: {}
+[32.984613] (-) TimerEvent: {}
+[33.085482] (-) TimerEvent: {}
+[33.188166] (-) TimerEvent: {}
+[33.289517] (-) TimerEvent: {}
+[33.395321] (-) TimerEvent: {}
+[33.498875] (-) TimerEvent: {}
+[33.602699] (-) TimerEvent: {}
+[33.703633] (-) TimerEvent: {}
+[33.806191] (-) TimerEvent: {}
+[33.914699] (-) TimerEvent: {}
+[34.019816] (-) TimerEvent: {}
+[34.121750] (-) TimerEvent: {}
+[34.222802] (-) TimerEvent: {}
+[34.325231] (-) TimerEvent: {}
+[34.430843] (-) TimerEvent: {}
+[34.533825] (-) TimerEvent: {}
+[34.636807] (-) TimerEvent: {}
+[34.739255] (-) TimerEvent: {}
+[34.841421] (-) TimerEvent: {}
+[34.944622] (-) TimerEvent: {}
+[35.046133] (-) TimerEvent: {}
+[35.148618] (-) TimerEvent: {}
+[35.249503] (-) TimerEvent: {}
+[35.355092] (-) TimerEvent: {}
+[35.456059] (-) TimerEvent: {}
+[35.559363] (-) TimerEvent: {}
+[35.663570] (-) TimerEvent: {}
+[35.765645] (-) TimerEvent: {}
+[35.866557] (-) TimerEvent: {}
+[35.967446] (-) TimerEvent: {}
+[36.068350] (-) TimerEvent: {}
+[36.170579] (-) TimerEvent: {}
+[36.273619] (-) TimerEvent: {}
+[36.375397] (-) TimerEvent: {}
+[36.476537] (-) TimerEvent: {}
+[36.577418] (-) TimerEvent: {}
+[36.678322] (-) TimerEvent: {}
+[36.781229] (-) TimerEvent: {}
+[36.884383] (-) TimerEvent: {}
+[36.974791] (drive_drone) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable p1_a_drive_node\x1b[0m\n'}
+[36.984990] (-) TimerEvent: {}
+[37.095186] (-) TimerEvent: {}
+[37.193910] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librclcpp.so: No such file or directory\n'}
+[37.199583] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.200627] (-) TimerEvent: {}
+[37.205595] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.206377] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.207036] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.207654] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.208229] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[37.214986] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/liblibstatistics_collector.so: No such file or directory\n'}
+[37.215737] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl.so: No such file or directory\n'}
+[37.216565] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw_implementation.so: No such file or directory\n'}
+[37.217347] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libament_index_cpp.so: No such file or directory\n'}
+[37.228604] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_spdlog.so: No such file or directory\n'}
+[37.229248] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_interface.so: No such file or directory\n'}
+[37.229879] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.230519] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.231170] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.236612] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.240585] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.241326] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so: No such file or directory\n'}
+[37.241962] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.244195] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so: No such file or directory\n'}
+[37.249068] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_yaml_param_parser.so: No such file or directory\n'}
+[37.249721] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libyaml.so: No such file or directory\n'}
+[37.250331] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.250994] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.255783] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.256544] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.257130] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.257722] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[37.258277] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.260183] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[37.260827] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.261495] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.262062] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.269086] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.269848] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.270430] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[37.271059] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.271727] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[37.272347] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libtracetools.so: No such file or directory\n'}
+[37.290046] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.290724] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.291300] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[37.291924] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.300613] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.301495] (-) TimerEvent: {}
+[37.307660] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.308613] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.313286] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[37.314110] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libfastcdr.so.1.0.24: No such file or directory\n'}
+[37.314896] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw.so: No such file or directory\n'}
+[37.315636] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.316282] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.330181] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[37.330856] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[37.331425] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.332017] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.340094] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_cpp.so: No such file or directory\n'}
+[37.340818] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.341403] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[37.346240] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[37.350115] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so: No such file or directory\n'}
+[37.350817] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.351374] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so: No such file or directory\n'}
+[37.351996] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[37.361010] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so: No such file or directory\n'}
+[37.361684] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_c.so: No such file or directory\n'}
+[37.362271] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcpputils.so: No such file or directory\n'}
+[37.362924] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_runtime_c.so: No such file or directory\n'}
+[37.373614] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcutils.so: No such file or directory\n'}
+[37.374623] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /usr/lib/x86_64-linux-gnu/libpython3.10.so: No such file or directory\n'}
+[37.402614] (-) TimerEvent: {}
+[37.505603] (-) TimerEvent: {}
+[37.606390] (-) TimerEvent: {}
+[37.608500] (drive_drone) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[37.618696] (drive_drone) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/p1_a_drive_node.dir/build.make:178: p1_a_drive_node] Error 1\n'}
+[37.624985] (drive_drone) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/p1_a_drive_node.dir/all] Error 2\n'}
+[37.706607] (-) TimerEvent: {}
+[37.809614] (-) TimerEvent: {}
+[37.911832] (-) TimerEvent: {}
+[38.012893] (-) TimerEvent: {}
+[38.119610] (-) TimerEvent: {}
+[38.221590] (-) TimerEvent: {}
+[38.322540] (-) TimerEvent: {}
+[38.423375] (-) TimerEvent: {}
+[38.524282] (-) TimerEvent: {}
+[38.625762] (-) TimerEvent: {}
+[38.727352] (-) TimerEvent: {}
+[38.828169] (-) TimerEvent: {}
+[38.929692] (-) TimerEvent: {}
+[39.050635] (-) TimerEvent: {}
+[39.153577] (-) TimerEvent: {}
+[39.260616] (-) TimerEvent: {}
+[39.361441] (-) TimerEvent: {}
+[39.462269] (-) TimerEvent: {}
+[39.564757] (-) TimerEvent: {}
+[39.668378] (-) TimerEvent: {}
+[39.771217] (-) TimerEvent: {}
+[39.872147] (-) TimerEvent: {}
+[39.973636] (-) TimerEvent: {}
+[40.075952] (-) TimerEvent: {}
+[40.177624] (-) TimerEvent: {}
+[40.278380] (-) TimerEvent: {}
+[40.379237] (-) TimerEvent: {}
+[40.486735] (-) TimerEvent: {}
+[40.595014] (-) TimerEvent: {}
+[40.695935] (-) TimerEvent: {}
+[40.797446] (-) TimerEvent: {}
+[40.898327] (-) TimerEvent: {}
+[40.999928] (-) TimerEvent: {}
+[41.102280] (-) TimerEvent: {}
+[41.203767] (-) TimerEvent: {}
+[41.306708] (-) TimerEvent: {}
+[41.408966] (-) TimerEvent: {}
+[41.509812] (-) TimerEvent: {}
+[41.612010] (-) TimerEvent: {}
+[41.715044] (-) TimerEvent: {}
+[41.816532] (-) TimerEvent: {}
+[41.919720] (-) TimerEvent: {}
+[42.020542] (-) TimerEvent: {}
+[42.124534] (-) TimerEvent: {}
+[42.226944] (-) TimerEvent: {}
+[42.329601] (-) TimerEvent: {}
+[42.438896] (-) TimerEvent: {}
+[42.544162] (-) TimerEvent: {}
+[42.647807] (-) TimerEvent: {}
+[42.750409] (-) TimerEvent: {}
+[42.854573] (-) TimerEvent: {}
+[42.956847] (-) TimerEvent: {}
+[43.063822] (-) TimerEvent: {}
+[43.167413] (-) TimerEvent: {}
+[43.270951] (-) TimerEvent: {}
+[43.373247] (-) TimerEvent: {}
+[43.476676] (-) TimerEvent: {}
+[43.577499] (-) TimerEvent: {}
+[43.678242] (-) TimerEvent: {}
+[43.779620] (-) TimerEvent: {}
+[43.880526] (-) TimerEvent: {}
+[43.993848] (-) TimerEvent: {}
+[44.095630] (-) TimerEvent: {}
+[44.196393] (-) TimerEvent: {}
+[44.297365] (-) TimerEvent: {}
+[44.399995] (-) TimerEvent: {}
+[44.500759] (-) TimerEvent: {}
+[44.602254] (-) TimerEvent: {}
+[44.703632] (-) TimerEvent: {}
+[44.808034] (-) TimerEvent: {}
+[44.909914] (-) TimerEvent: {}
+[45.010707] (-) TimerEvent: {}
+[45.111498] (-) TimerEvent: {}
+[45.213284] (-) TimerEvent: {}
+[45.315623] (-) TimerEvent: {}
+[45.416860] (-) TimerEvent: {}
+[45.519900] (-) TimerEvent: {}
+[45.623980] (-) TimerEvent: {}
+[45.725338] (-) TimerEvent: {}
+[45.827686] (-) TimerEvent: {}
+[45.929750] (-) TimerEvent: {}
+[46.030734] (-) TimerEvent: {}
+[46.131557] (-) TimerEvent: {}
+[46.232670] (-) TimerEvent: {}
+[46.337613] (-) TimerEvent: {}
+[46.438502] (-) TimerEvent: {}
+[46.540236] (-) TimerEvent: {}
+[46.644784] (-) TimerEvent: {}
+[46.748032] (-) TimerEvent: {}
+[46.851244] (-) TimerEvent: {}
+[46.953256] (-) TimerEvent: {}
+[47.058648] (-) TimerEvent: {}
+[47.169616] (-) TimerEvent: {}
+[47.270436] (-) TimerEvent: {}
+[47.371603] (-) TimerEvent: {}
+[47.474619] (-) TimerEvent: {}
+[47.576824] (-) TimerEvent: {}
+[47.679837] (-) TimerEvent: {}
+[47.785895] (-) TimerEvent: {}
+[47.886613] (-) TimerEvent: {}
+[47.989265] (-) TimerEvent: {}
+[48.091560] (-) TimerEvent: {}
+[48.196602] (-) TimerEvent: {}
+[48.297410] (-) TimerEvent: {}
+[48.398980] (-) TimerEvent: {}
+[48.502010] (-) TimerEvent: {}
+[48.604965] (-) TimerEvent: {}
+[48.709113] (-) TimerEvent: {}
+[48.813620] (-) TimerEvent: {}
+[48.917579] (-) TimerEvent: {}
+[49.025623] (-) TimerEvent: {}
+[49.127146] (-) TimerEvent: {}
+[49.230960] (-) TimerEvent: {}
+[49.333658] (-) TimerEvent: {}
+[49.436630] (-) TimerEvent: {}
+[49.537575] (-) TimerEvent: {}
+[49.641924] (-) TimerEvent: {}
+[49.743070] (-) TimerEvent: {}
+[49.845083] (-) TimerEvent: {}
+[49.945895] (-) TimerEvent: {}
+[50.046681] (-) TimerEvent: {}
+[50.147619] (-) TimerEvent: {}
+[50.248445] (-) TimerEvent: {}
+[50.349510] (-) TimerEvent: {}
+[50.450334] (-) TimerEvent: {}
+[50.551202] (-) TimerEvent: {}
+[50.652627] (-) TimerEvent: {}
+[50.753623] (-) TimerEvent: {}
+[50.854486] (-) TimerEvent: {}
+[50.955615] (-) TimerEvent: {}
+[51.059096] (-) TimerEvent: {}
+[51.159959] (-) TimerEvent: {}
+[51.261810] (-) TimerEvent: {}
+[51.362640] (-) TimerEvent: {}
+[51.463609] (-) TimerEvent: {}
+[51.564611] (-) TimerEvent: {}
+[51.665614] (-) TimerEvent: {}
+[51.766620] (-) TimerEvent: {}
+[51.867611] (-) TimerEvent: {}
+[51.968612] (-) TimerEvent: {}
+[52.070612] (-) TimerEvent: {}
+[52.171438] (-) TimerEvent: {}
+[52.272620] (-) TimerEvent: {}
+[52.374912] (-) TimerEvent: {}
+[52.475725] (-) TimerEvent: {}
+[52.576610] (-) TimerEvent: {}
+[52.678613] (-) TimerEvent: {}
+[52.779358] (-) TimerEvent: {}
+[52.882020] (-) TimerEvent: {}
+[52.982946] (-) TimerEvent: {}
+[53.084515] (-) TimerEvent: {}
+[53.185630] (-) TimerEvent: {}
+[53.286622] (-) TimerEvent: {}
+[53.387628] (-) TimerEvent: {}
+[53.488997] (-) TimerEvent: {}
+[53.594430] (-) TimerEvent: {}
+[53.697091] (-) TimerEvent: {}
+[53.798641] (-) TimerEvent: {}
+[53.899581] (-) TimerEvent: {}
+[54.000616] (-) TimerEvent: {}
+[54.102611] (-) TimerEvent: {}
+[54.203409] (-) TimerEvent: {}
+[54.304618] (-) TimerEvent: {}
+[54.407620] (-) TimerEvent: {}
+[54.508448] (-) TimerEvent: {}
+[54.609306] (-) TimerEvent: {}
+[54.710506] (-) TimerEvent: {}
+[54.812576] (-) TimerEvent: {}
+[54.923806] (-) TimerEvent: {}
+[55.040622] (-) TimerEvent: {}
+[55.141615] (-) TimerEvent: {}
+[55.242668] (-) TimerEvent: {}
+[55.344364] (-) TimerEvent: {}
+[55.446427] (-) TimerEvent: {}
+[55.548122] (-) TimerEvent: {}
+[55.649766] (-) TimerEvent: {}
+[55.751933] (-) TimerEvent: {}
+[55.854367] (-) TimerEvent: {}
+[55.960482] (-) TimerEvent: {}
+[56.063280] (-) TimerEvent: {}
+[56.165099] (-) TimerEvent: {}
+[56.268194] (-) TimerEvent: {}
+[56.372987] (-) TimerEvent: {}
+[56.478787] (-) TimerEvent: {}
+[56.581290] (-) TimerEvent: {}
+[56.683515] (-) TimerEvent: {}
+[56.786002] (-) TimerEvent: {}
+[56.888713] (-) TimerEvent: {}
+[56.990755] (-) TimerEvent: {}
+[57.093639] (-) TimerEvent: {}
+[57.195241] (-) TimerEvent: {}
+[57.297622] (-) TimerEvent: {}
+[57.400334] (-) TimerEvent: {}
+[57.501984] (-) TimerEvent: {}
+[57.607089] (-) TimerEvent: {}
+[57.712735] (-) TimerEvent: {}
+[57.816720] (-) TimerEvent: {}
+[57.920233] (-) TimerEvent: {}
+[58.023840] (-) TimerEvent: {}
+[58.133898] (-) TimerEvent: {}
+[58.239029] (-) TimerEvent: {}
+[58.344044] (-) TimerEvent: {}
+[58.447142] (-) TimerEvent: {}
+[58.549929] (-) TimerEvent: {}
+[58.652145] (-) TimerEvent: {}
+[58.754811] (-) TimerEvent: {}
+[58.855725] (-) TimerEvent: {}
+[58.958620] (-) TimerEvent: {}
+[59.061759] (-) TimerEvent: {}
+[59.164912] (-) TimerEvent: {}
+[59.265771] (-) TimerEvent: {}
+[59.366515] (-) TimerEvent: {}
+[59.467326] (-) TimerEvent: {}
+[59.571871] (-) TimerEvent: {}
+[59.673293] (-) TimerEvent: {}
+[59.774730] (-) TimerEvent: {}
+[59.875551] (-) TimerEvent: {}
+[59.976345] (-) TimerEvent: {}
+[60.077892] (-) TimerEvent: {}
+[60.179618] (-) TimerEvent: {}
+[60.280557] (-) TimerEvent: {}
+[60.381831] (-) TimerEvent: {}
+[60.482631] (-) TimerEvent: {}
+[60.585660] (-) TimerEvent: {}
+[60.686433] (-) TimerEvent: {}
+[60.790391] (-) TimerEvent: {}
+[60.892247] (-) TimerEvent: {}
+[60.993090] (-) TimerEvent: {}
+[61.094103] (-) TimerEvent: {}
+[61.194937] (-) TimerEvent: {}
+[61.296622] (-) TimerEvent: {}
+[61.397419] (-) TimerEvent: {}
+[61.498272] (-) TimerEvent: {}
+[61.599099] (-) TimerEvent: {}
+[61.700315] (-) TimerEvent: {}
+[61.803612] (-) TimerEvent: {}
+[61.904401] (-) TimerEvent: {}
+[62.007077] (-) TimerEvent: {}
+[62.107961] (-) TimerEvent: {}
+[62.208822] (-) TimerEvent: {}
+[62.310224] (-) TimerEvent: {}
+[62.412044] (-) TimerEvent: {}
+[62.513450] (-) TimerEvent: {}
+[62.615622] (-) TimerEvent: {}
+[62.718429] (-) TimerEvent: {}
+[62.820629] (-) TimerEvent: {}
+[62.921506] (-) TimerEvent: {}
+[63.023865] (-) TimerEvent: {}
+[63.125198] (-) TimerEvent: {}
+[63.227370] (-) TimerEvent: {}
+[63.328218] (-) TimerEvent: {}
+[63.430177] (-) TimerEvent: {}
+[63.531401] (-) TimerEvent: {}
+[63.632247] (-) TimerEvent: {}
+[63.733191] (-) TimerEvent: {}
+[63.836068] (-) TimerEvent: {}
+[63.938964] (-) TimerEvent: {}
+[64.039939] (-) TimerEvent: {}
+[64.143350] (-) TimerEvent: {}
+[64.248385] (-) TimerEvent: {}
+[64.352259] (-) TimerEvent: {}
+[64.456749] (-) TimerEvent: {}
+[64.560194] (-) TimerEvent: {}
+[64.662545] (-) TimerEvent: {}
+[64.769219] (-) TimerEvent: {}
+[64.870146] (-) TimerEvent: {}
+[64.973519] (-) TimerEvent: {}
+[65.079303] (-) TimerEvent: {}
+[65.180263] (-) TimerEvent: {}
+[65.281998] (-) TimerEvent: {}
+[65.386255] (-) TimerEvent: {}
+[65.489758] (-) TimerEvent: {}
+[65.590756] (-) TimerEvent: {}
+[65.692931] (-) TimerEvent: {}
+[65.796606] (-) TimerEvent: {}
+[65.897341] (-) TimerEvent: {}
+[65.998298] (-) TimerEvent: {}
+[66.104126] (-) TimerEvent: {}
+[66.206025] (-) TimerEvent: {}
+[66.306862] (-) TimerEvent: {}
+[66.408765] (-) TimerEvent: {}
+[66.510560] (-) TimerEvent: {}
+[66.612530] (-) TimerEvent: {}
+[66.715915] (-) TimerEvent: {}
+[66.817419] (-) TimerEvent: {}
+[66.919937] (-) TimerEvent: {}
+[67.024211] (-) TimerEvent: {}
+[67.125229] (-) TimerEvent: {}
+[67.226400] (-) TimerEvent: {}
+[67.327565] (-) TimerEvent: {}
+[67.428516] (-) TimerEvent: {}
+[67.533067] (-) TimerEvent: {}
+[67.637163] (-) TimerEvent: {}
+[67.744989] (-) TimerEvent: {}
+[67.846613] (-) TimerEvent: {}
+[67.953947] (-) TimerEvent: {}
+[68.055981] (-) TimerEvent: {}
+[68.163759] (-) TimerEvent: {}
+[68.264600] (-) TimerEvent: {}
+[68.367637] (-) TimerEvent: {}
+[68.468795] (-) TimerEvent: {}
+[68.570736] (-) TimerEvent: {}
+[68.676849] (-) TimerEvent: {}
+[68.782443] (-) TimerEvent: {}
+[68.889622] (-) TimerEvent: {}
+[68.993322] (-) TimerEvent: {}
+[69.096261] (-) TimerEvent: {}
+[69.204089] (-) TimerEvent: {}
+[69.310008] (-) TimerEvent: {}
+[69.416638] (-) TimerEvent: {}
+[69.521265] (-) TimerEvent: {}
+[69.624608] (-) TimerEvent: {}
+[69.728270] (-) TimerEvent: {}
+[69.832186] (-) TimerEvent: {}
+[69.934061] (-) TimerEvent: {}
+[70.040396] (-) TimerEvent: {}
+[70.141346] (-) TimerEvent: {}
+[70.242289] (-) TimerEvent: {}
+[70.343045] (-) TimerEvent: {}
+[70.443784] (-) TimerEvent: {}
+[70.492547] (drive_drone) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable tb3_road_network_mover\x1b[0m\n'}
+[70.543961] (-) TimerEvent: {}
+[70.644806] (-) TimerEvent: {}
+[70.748434] (-) TimerEvent: {}
+[70.849354] (-) TimerEvent: {}
+[70.860432] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librclcpp.so: No such file or directory\n'}
+[70.864061] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.866107] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.868219] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.869090] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.869878] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.870572] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[70.871216] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/liblibstatistics_collector.so: No such file or directory\n'}
+[70.873038] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl.so: No such file or directory\n'}
+[70.873857] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw_implementation.so: No such file or directory\n'}
+[70.874715] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libament_index_cpp.so: No such file or directory\n'}
+[70.875597] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_spdlog.so: No such file or directory\n'}
+[70.876825] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_interface.so: No such file or directory\n'}
+[70.877918] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.878688] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.879857] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.880680] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.881343] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.881999] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so: No such file or directory\n'}
+[70.882723] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.883549] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so: No such file or directory\n'}
+[70.884229] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_yaml_param_parser.so: No such file or directory\n'}
+[70.884991] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libyaml.so: No such file or directory\n'}
+[70.888695] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.889449] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.890697] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.891215] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.891710] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.892071] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[70.892398] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.892990] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[70.893381] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.893956] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.894299] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.894865] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.895581] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.896191] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[70.896847] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.897554] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[70.898533] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libtracetools.so: No such file or directory\n'}
+[70.899436] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.900158] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.900851] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.901738] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so: No such file or directory\n'}
+[70.902502] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.903201] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.904195] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.905028] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so: No such file or directory\n'}
+[70.905709] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libfastcdr.so.1.0.24: No such file or directory\n'}
+[70.906426] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw.so: No such file or directory\n'}
+[70.907144] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.907869] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.908589] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.909263] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.909971] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.910659] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.911295] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so: No such file or directory\n'}
+[70.912305] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so: No such file or directory\n'}
+[70.913064] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.913787] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.914504] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.915174] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_cpp.so: No such file or directory\n'}
+[70.915865] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[70.916577] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.917275] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.918011] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[70.918698] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[70.919322] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so: No such file or directory\n'}
+[70.920056] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so: No such file or directory\n'}
+[70.924054] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.924858] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so: No such file or directory\n'}
+[70.925526] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so: No such file or directory\n'}
+[70.926222] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so: No such file or directory\n'}
+[70.927366] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_c.so: No such file or directory\n'}
+[70.928104] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcpputils.so: No such file or directory\n'}
+[70.928807] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_runtime_c.so: No such file or directory\n'}
+[70.929511] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /opt/ros/humble/lib/librcutils.so: No such file or directory\n'}
+[70.930155] (drive_drone) StderrLine: {'line': b'/usr/bin/ld: cannot find /usr/lib/x86_64-linux-gnu/libpython3.10.so: No such file or directory\n'}
+[70.949604] (-) TimerEvent: {}
+[71.050631] (-) TimerEvent: {}
+[71.057776] (drive_drone) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[71.066293] (drive_drone) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tb3_road_network_mover.dir/build.make:186: tb3_road_network_mover] Error 1\n'}
+[71.067887] (drive_drone) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/tb3_road_network_mover.dir/all] Error 2\n'}
+[71.151601] (-) TimerEvent: {}
+[71.252385] (-) TimerEvent: {}
+[71.353202] (-) TimerEvent: {}
+[71.453983] (-) TimerEvent: {}
+[71.557616] (-) TimerEvent: {}
+[71.660270] (-) TimerEvent: {}
+[71.762853] (-) TimerEvent: {}
+[71.863719] (-) TimerEvent: {}
+[71.955766] (drive_drone) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tb3_follower_node.dir/build.make:76: CMakeFiles/tb3_follower_node.dir/src/tb3_follower_node.cpp.o] Interrupt\n'}
+[71.961601] (drive_drone) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/tb3_follower_node.dir/all] Interrupt\n'}
+[71.966602] (drive_drone) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[71.967415] (-) TimerEvent: {}
+[72.073676] (-) TimerEvent: {}
+[72.175597] (-) TimerEvent: {}
+[72.255359] (drive_drone) CommandEnded: {'returncode': -2}
+[72.276041] (-) TimerEvent: {}
+[72.301638] (drive_drone) JobEnded: {'identifier': 'drive_drone', 'rc': 'SIGINT'}
+[72.313755] (-) EventReactorShutdown: {}

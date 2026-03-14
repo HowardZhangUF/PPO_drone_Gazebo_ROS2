@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o[0m
+[ 37%] Built target p1_a_drive_node
+[ 62%] Built target tb3_road_network_mover
+[ 87%] Built target tb3_follower_node

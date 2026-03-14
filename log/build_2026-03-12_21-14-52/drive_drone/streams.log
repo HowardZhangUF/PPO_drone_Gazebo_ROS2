@@ -1,0 +1,38 @@
+[0.278s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[0.517s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.058s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.153s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.525s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.775s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.394s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.424s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.640s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[8.153s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[8.608s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[9.184s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[11.113s] -- Configuring done (10.7s)
+[11.532s] -- Generating done (0.3s)
+[11.707s] -- Build files have been written to: /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone
+[11.777s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[11.800s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
+[12.658s] [ 12%] [32mBuilding CXX object CMakeFiles/p1_a_drive_node.dir/src/p1_a_drive_node.cpp.o[0m
+[64.488s] [ 25%] [32m[1mLinking CXX executable p1_a_drive_node[0m
+[66.767s] [ 25%] Built target p1_a_drive_node
+[67.101s] [ 37%] [32mBuilding CXX object CMakeFiles/tb3_road_network_mover.dir/src/tb3_road_network_mover.cpp.o[0m
+[198.876s] [ 50%] [32m[1mLinking CXX executable tb3_road_network_mover[0m
+[204.150s] [ 50%] Built target tb3_road_network_mover
+[204.515s] [ 62%] [32mBuilding CXX object CMakeFiles/tb3_follower_node.dir/src/tb3_follower_node.cpp.o[0m
+[264.356s] [ 75%] [32m[1mLinking CXX executable tb3_follower_node[0m
+[266.362s] [ 75%] Built target tb3_follower_node
+[266.524s] [ 87%] [32mBuilding CXX object CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o[0m
+[268.070s] [01m[K/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone/src/p1_b_tb3_follower.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[268.070s]     4 | #include [01;31m[K"cv_bridge/cv_bridge.h"[m[K
+[268.071s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[268.071s] compilation terminated.
+[268.082s] gmake[2]: *** [CMakeFiles/p1_b_tb3_follower.dir/build.make:76: CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o] Error 1
+[268.082s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/p1_b_tb3_follower.dir/all] Error 2
+[268.083s] gmake: *** [Makefile:146: all] Error 2
+[268.093s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8

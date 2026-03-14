@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/p1_a_drive_node.dir/build.make:76: CMakeFiles/p1_a_drive_node.dir/src/p1_a_drive_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/p1_a_drive_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

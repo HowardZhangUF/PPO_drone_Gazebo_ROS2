@@ -1,0 +1,164 @@
+[01m[K/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone/src/p1_b_tb3_follower.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+    4 | #include [01;31m[K"cv_bridge/cv_bridge.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/p1_b_tb3_follower.dir/build.make:76: CMakeFiles/p1_b_tb3_follower.dir/src/p1_b_tb3_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/p1_b_tb3_follower.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librclcpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/liblibstatistics_collector.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw_implementation.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libament_index_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_spdlog.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_interface.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_yaml_param_parser.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libyaml.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libtracetools.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libfastcdr.so.1.0.24: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcpputils.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_runtime_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcutils.so: No such file or directory
+/usr/bin/ld: cannot find /usr/lib/x86_64-linux-gnu/libpython3.10.so: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/p1_a_drive_node.dir/build.make:178: p1_a_drive_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/p1_a_drive_node.dir/all] Error 2
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librclcpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/liblibstatistics_collector.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw_implementation.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libament_index_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_spdlog.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_logging_interface.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcl_yaml_param_parser.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libyaml.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libtracetools.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libfastcdr.so.1.0.24: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librmw.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_cpp.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_typesupport_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcpputils.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librosidl_runtime_c.so: No such file or directory
+/usr/bin/ld: cannot find /opt/ros/humble/lib/librcutils.so: No such file or directory
+/usr/bin/ld: cannot find /usr/lib/x86_64-linux-gnu/libpython3.10.so: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tb3_road_network_mover.dir/build.make:186: tb3_road_network_mover] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/tb3_road_network_mover.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/tb3_follower_node.dir/build.make:76: CMakeFiles/tb3_follower_node.dir/src/tb3_follower_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/tb3_follower_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

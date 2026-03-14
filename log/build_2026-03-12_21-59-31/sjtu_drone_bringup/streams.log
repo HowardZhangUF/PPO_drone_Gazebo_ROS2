@@ -1,0 +1,21 @@
+[5.806s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_bringup': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[7.697s] running egg_info
+[7.855s] writing ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO
+[7.856s] writing dependency_links to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt
+[7.857s] writing entry points to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt
+[7.858s] writing requirements to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt
+[7.860s] writing top-level names to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt
+[8.239s] reading manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[8.244s] writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[8.245s] running build
+[8.245s] running build_py
+[8.248s] running install
+[8.304s] running install_lib
+[8.520s] running install_data
+[8.522s] running install_egg_info
+[8.732s] removing '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages/sjtu_drone_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[8.737s] Copying ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages/sjtu_drone_bringup-0.0.0-py3.12.egg-info
+[8.746s] running install_scripts
+[9.807s] Installing spawn_drone script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[9.808s] writing list of installed files to '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/install.log'
+[9.967s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_bringup' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data

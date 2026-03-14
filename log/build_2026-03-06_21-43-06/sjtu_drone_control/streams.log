@@ -1,0 +1,48 @@
+[1.566s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build
+[2.012s] running develop
+[2.324s] Removing /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)
+[2.372s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control' returned '0': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build
+[2.374s] Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/install.log --single-version-externally-managed install_data --force
+[2.821s] running egg_info
+[2.824s] writing ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/PKG-INFO
+[2.824s] writing dependency_links to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/dependency_links.txt
+[2.825s] writing entry points to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/entry_points.txt
+[2.825s] writing requirements to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/requires.txt
+[2.825s] writing top-level names to ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/top_level.txt
+[2.828s] reading manifest file '../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+[2.830s] writing manifest file '../../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+[2.830s] running build
+[2.831s] running build_py
+[2.831s] creating /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build
+[2.831s] creating /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib
+[2.831s] creating /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.832s] copying sjtu_drone_control/open_loop_control.py -> /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.832s] copying sjtu_drone_control/teleop.py -> /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.832s] copying sjtu_drone_control/__init__.py -> /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.832s] copying sjtu_drone_control/teleop_joystick.py -> /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.832s] copying sjtu_drone_control/drone_position_control.py -> /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control
+[2.833s] running install
+[2.833s] running install_lib
+[2.834s] creating /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.835s] copying /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control/open_loop_control.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.835s] copying /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.835s] copying /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control/__init__.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.836s] copying /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop_joystick.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.836s] copying /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_position_control.py -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+[2.837s] byte-compiling /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc
+[2.842s] byte-compiling /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop.py to teleop.cpython-310.pyc
+[2.844s] byte-compiling /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/__init__.py to __init__.cpython-310.pyc
+[2.844s] byte-compiling /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc
+[2.845s] byte-compiling /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc
+[2.845s] running install_data
+[2.845s] copying resource/sjtu_drone_control -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/ament_index/resource_index/packages
+[2.846s] copying package.xml -> /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control
+[2.846s] running install_egg_info
+[2.849s] Copying ../../../build/sjtu_drone_control/sjtu_drone_control.egg-info to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info
+[2.850s] running install_scripts
+[2.886s] Installing drone_position_control script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/sjtu_drone_control
+[2.886s] Installing open_loop_control script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/sjtu_drone_control
+[2.886s] Installing teleop script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/sjtu_drone_control
+[2.887s] Installing teleop_joystick script to /home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/sjtu_drone_control
+[2.889s] writing list of installed files to '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/install.log'
+[2.937s] Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control' returned '0': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/install.log --single-version-externally-managed install_data --force
