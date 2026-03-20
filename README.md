@@ -1,5 +1,5 @@
 # Dual Drone Setup Guide
-
+![env](/env.png)
 This document explains how to run multiple independent drones simultaneously in Gazebo with proper namespace isolation.
 
 ## Quick Start
