@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000175] (-) JobUnselected: {'identifier': 'drive_drone'}
-[0.000466] (-) JobUnselected: {'identifier': 'mml_guidance'}
-[0.000505] (-) JobUnselected: {'identifier': 'sjtu_drone_bringup'}
-[0.000581] (-) JobUnselected: {'identifier': 'sjtu_drone_control'}
-[0.000661] (-) JobUnselected: {'identifier': 'sjtu_drone_description'}
-[0.000758] (-) EventReactorShutdown: {}

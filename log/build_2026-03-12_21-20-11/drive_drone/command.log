@@ -1,2 +1,0 @@
-Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
-Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8

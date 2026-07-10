@@ -1,0 +1,450 @@
+[0.263s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'sjtu_drone_description', 'sjtu_drone_control', 'drive_drone']
+[0.263s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['sjtu_drone_description', 'sjtu_drone_control', 'drive_drone'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73345676ea10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7334568ff940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7334568ff940>>, mixin_verb=('build',))
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.629s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/PPO_drone_Gazebo_ROS2'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extensions ['colcon_pkg']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extension 'colcon_pkg'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extensions ['colcon_meta']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extension 'colcon_meta'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extensions ['ros']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_drone) by extension 'ros'
+[0.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive_drone' with type 'ros.ament_cmake' and name 'drive_drone'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'colcon_meta'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['ros']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'ros'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['cmake', 'python']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'cmake'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'python'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extensions ['python_setup_py']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim) by extension 'python_setup_py'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/README) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/README) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/README) ignored
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'colcon_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['colcon_meta']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'colcon_meta'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['ros']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'ros'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['cmake', 'python']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'cmake'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'python'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extensions ['python_setup_py']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/__pycache__) by extension 'python_setup_py'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/adp) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/adp) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/adp) ignored
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/build) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/build) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/build) ignored
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/env_images) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/env_images) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/env_images) ignored
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/environments) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/environments) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/environments) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/install) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/install) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/install) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/log) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/log) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/log) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'ros'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['cmake', 'python']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'cmake'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'python'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extensions ['python_setup_py']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs) by extension 'python_setup_py'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'ros'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'cmake'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extensions ['python_setup_py']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/logs_recurrent) by extension 'python_setup_py'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models) ignored
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_offline) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_offline) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_offline) ignored
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_recurrent) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_recurrent) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/models_recurrent) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/pdf_resource) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/pdf_resource) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/pdf_resource) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/scripts) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/scripts) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/simulation_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/simulation_utils) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/simulation_utils) ignored
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['colcon_pkg']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['ros']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'ros'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['cmake', 'python']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'cmake'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'python'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extensions ['python_setup_py']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src) by extension 'python_setup_py'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extension 'colcon_pkg'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extensions ['colcon_meta']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/src/mml_guidance) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mml_python_sim/src/mml_guidance' with type 'ros.ament_python' and name 'mml_guidance'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/training) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/training) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/mml_python_sim/training) ignored
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ros'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['cmake', 'python']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'cmake'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'python'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['python_setup_py']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'python_setup_py'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['cmake', 'python']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'cmake'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'python'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['python_setup_py']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'python_setup_py'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_pkg'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ros'
+[0.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_control' with type 'ros.ament_python' and name 'sjtu_drone_control'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.745s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mml_guidance' in 'src/mml_python_sim/src/mml_guidance'
+[0.745s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sjtu_drone_bringup' in 'src/sjtu_drone/sjtu_drone_bringup'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_target' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_clean_first' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_force_configure' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'ament_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.746s] DEBUG:colcon.colcon_core.verb:Building package 'drive_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone', 'merge_install': False, 'path': '/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone', 'symlink_install': False, 'test_result_base': None}
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.747s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control', 'merge_install': False, 'path': '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control', 'symlink_install': False, 'test_result_base': None}
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.747s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.747s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.748s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone' with build type 'ament_cmake'
+[0.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone'
+[0.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.762s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.762s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.762s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.762s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.762s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/opt/ros/jazzy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_sim_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_sensors_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_physics_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.763s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/sdformat_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_gui_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_transport_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_rendering_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_plugin_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_fuel_tools_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.764s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_msgs_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_common_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_math_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_utils_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_tools_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_ogre_next_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_dartsim_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.765s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/opt/ros/jazzy/opt/gz_cmake_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.774s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control' with build type 'ament_python'
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'ament_prefix_path')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.sh'
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description'
+[0.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[1.205s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[2.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_control' returned '0': PYTHONPATH=/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/build install --record /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control' for CMake module files
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control' for CMake config files
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/bin'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/pkgconfig/sjtu_drone_control.pc'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/lib/python3.10/site-packages'
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'pythonpath')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.dsv'
+[2.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.sh'
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/bin'
+[2.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_control)
+[2.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/package.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/package.sh'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/package.bash'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/sjtu_drone_control/package.zsh'
+[2.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control/share/colcon-core/packages/sjtu_drone_control)
+[3.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/drive_drone -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone
+[3.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
+[7.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake /home/user/PPO_drone_Gazebo_ROS2/src/sjtu_drone/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description
+[7.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description -- -j8 -l8
+[25.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone -- -j8 -l8
+[25.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone
+[25.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_drone)
+[25.624s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' for CMake module files
+[25.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/drive_drone
+[25.626s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' for CMake config files
+[25.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_drone', 'cmake_prefix_path')
+[25.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.ps1'
+[25.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.dsv'
+[25.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.sh'
+[25.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib'
+[25.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/bin'
+[25.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/pkgconfig/drive_drone.pc'
+[25.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/python3.10/site-packages'
+[25.630s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/bin'
+[25.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.ps1'
+[25.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.dsv'
+[25.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.sh'
+[25.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.bash'
+[25.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.zsh'
+[25.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/colcon-core/packages/drive_drone)
+[25.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_drone)
+[25.647s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' for CMake module files
+[25.647s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone' for CMake config files
+[25.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_drone', 'cmake_prefix_path')
+[25.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.ps1'
+[25.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.dsv'
+[25.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.sh'
+[25.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib'
+[25.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/bin'
+[25.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/pkgconfig/drive_drone.pc'
+[25.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/lib/python3.10/site-packages'
+[25.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/bin'
+[25.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.ps1'
+[25.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.dsv'
+[25.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.sh'
+[25.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.bash'
+[25.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/drive_drone/package.zsh'
+[25.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/PPO_drone_Gazebo_ROS2/install/drive_drone/share/colcon-core/packages/drive_drone)
+[52.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --build /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description -- -j8 -l8
+[52.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description
+[52.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[52.434s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' for CMake module files
+[52.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_control:/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_bringup:/home/user/PPO_drone_Gazebo_ROS2/install/mml_guidance:/opt/ros/humble:/opt/ros/jazzy /usr/bin/cmake --install /home/user/PPO_drone_Gazebo_ROS2/build/sjtu_drone_description
+[52.435s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' for CMake config files
+[52.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[52.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[52.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[52.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[52.437s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib'
+[52.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[52.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[52.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[52.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[52.439s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/bin'
+[52.439s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[52.439s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib/python3.10/site-packages'
+[52.439s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/bin'
+[52.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[52.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[52.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[52.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[52.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[52.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[52.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[52.443s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' for CMake module files
+[52.443s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description' for CMake config files
+[52.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[52.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[52.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[52.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[52.446s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib'
+[52.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[52.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[52.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[52.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[52.448s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/bin'
+[52.448s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[52.448s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/lib/python3.10/site-packages'
+[52.448s] Level 1:colcon.colcon_core.environment:checking '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/bin'
+[52.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[52.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[52.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[52.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[52.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[52.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/PPO_drone_Gazebo_ROS2/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[52.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.452s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[52.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.490s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/PPO_drone_Gazebo_ROS2/install/local_setup.ps1'
+[52.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/PPO_drone_Gazebo_ROS2/install/_local_setup_util_ps1.py'
+[52.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/PPO_drone_Gazebo_ROS2/install/setup.ps1'
+[52.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/PPO_drone_Gazebo_ROS2/install/local_setup.sh'
+[52.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/PPO_drone_Gazebo_ROS2/install/_local_setup_util_sh.py'
+[52.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/PPO_drone_Gazebo_ROS2/install/setup.sh'
+[52.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/PPO_drone_Gazebo_ROS2/install/local_setup.bash'
+[52.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/PPO_drone_Gazebo_ROS2/install/setup.bash'
+[52.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/PPO_drone_Gazebo_ROS2/install/local_setup.zsh'
+[52.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/PPO_drone_Gazebo_ROS2/install/setup.zsh'

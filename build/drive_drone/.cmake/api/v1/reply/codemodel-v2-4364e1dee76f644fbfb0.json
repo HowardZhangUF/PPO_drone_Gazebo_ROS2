@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99676699c127c7125fd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "drive_drone",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_drone_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_drone_uninstall-2ab17c565eaf85663f04.json",
+					"name" : "drive_drone_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1_a_drive_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1_a_drive_node-cc48e3d4d9fd804de205.json",
+					"name" : "p1_a_drive_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1_b_tb3_follower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1_b_tb3_follower-738a780b8a52c28f8a7f.json",
+					"name" : "p1_b_tb3_follower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb3_follower_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb3_follower_node-2917fec6a9bcf92e755d.json",
+					"name" : "tb3_follower_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb3_road_network_mover::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb3_road_network_mover-221de13765298c100510.json",
+					"name" : "tb3_road_network_mover",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6e22cc938d2fcbf6387c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/PPO_drone_Gazebo_ROS2/build/drive_drone",
+		"source" : "/home/user/PPO_drone_Gazebo_ROS2/src/drive_drone"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
